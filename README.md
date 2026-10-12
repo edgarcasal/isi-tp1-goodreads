@@ -3,7 +3,7 @@
 Trabalho Prático I de **Integração de Sistemas de Informação**
 Licenciatura em Engenharia de Sistemas Informáticos — EST | UPCA, 2026/27
 
-**Autores:** Edgar Casal — a31026 / João Simão Machado - a31510
+**Autores:** Edgar Casal — a31026 / João Simão Machado - a31510\
 **Plataforma:** KNIME Analytics Platform / Pentaho Kettle + PostgreSQL
 
 ## Problema
