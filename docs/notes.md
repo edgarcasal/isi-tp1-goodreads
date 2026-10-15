@@ -28,6 +28,21 @@
   quantidades (o isbn também pode terminar em "X").
 - Coluna "  num_pages" renomeada para "num_pages" (tinha espaços).
 
+### 1.4 API da Open Library
+- Pedido por ISBN (search.json), com User-Agent identificado e
+  atraso de 1 s entre pedidos.
+- JSON Path extrai: numFound, edition_count (1.º resultado),
+  idiomas e subjects (todos os resultados, como listas).
+- Os códigos de idioma da Open Library diferem dos do Goodreads
+  (ex.: chinês "chi" vs "zho").
+- Verificação de edição PT: Ungroup da lista de idiomas → filtro
+  "por" → GroupBy por livro → left outer join → Rule Engine
+  (Sim / Não / Desconhecido).
+- Validação com 30 livros: resultados coerentes; caso com 2
+  resultados (numFound = 2) tratado corretamente.
+- Limitação: coletâneas/edições especiais podem aparecer como
+  "Não" mesmo que a obra esteja traduzida.
+
 ## 2. Transformação
 
 ### 2.1 Normalização do idioma
