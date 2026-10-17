@@ -101,6 +101,15 @@
   Limitação: em caso de empate, fica um dos géneros empatados.
 - 25 livros (~10%) sem género reconhecido → "Outro".
 
+### 2.5 Ranking
+- Pontuação ponderada (fórmula do IMDb):
+  (v/(v+m))·R + (m/(v+m))·C, com m = 50 000 e C = 3,943.
+- C calculado no próprio workflow (média dos livros com
+  ratings_count > 0) e passado como flow variable.
+- Posição dentro de cada género (Rank, modo ordinal), com
+  edition_count como critério de desempate.
+- Resultado: 255 candidatos ordenados por género.
+
 ## 3. Decisões de negócio
 - Candidatos restringidos a livros em inglês: a maioria das traduções
   publicadas em Portugal vem do inglês.
