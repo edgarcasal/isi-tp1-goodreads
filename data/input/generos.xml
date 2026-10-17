@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<generos>
+  <genero><nome>Fantasia</nome><padrao>fantasy|magic|wizard|witch|dragon|elves</padrao></genero>
+  <genero><nome>Ficção científica</nome><padrao>science fiction|space|robot|time travel|alien</padrao></genero>
+  <genero><nome>Policial e thriller</nome><padrao>detective|mystery|crime|thriller|suspense|murder</padrao></genero>
+  <genero><nome>Romance</nome><padrao>love stor|romance|man-woman relationships</padrao></genero>
+  <genero><nome>Juvenil</nome><padrao>juvenile|young adult|children</padrao></genero>
+  <genero><nome>Histórico</nome><padrao>historical|history|\bwar\b</padrao></genero>
+  <genero><nome>Biografia</nome><padrao>biography|autobiography|memoir</padrao></genero>
+  <genero><nome>Não-ficção</nome><padrao>psychology|economics|business|self-help|philosophy|science(?! fiction)</padrao></genero>
+</generos>

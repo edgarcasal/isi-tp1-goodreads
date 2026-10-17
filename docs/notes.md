@@ -43,6 +43,20 @@
 - Limitação: coletâneas/edições especiais podem aparecer como
   "Não" mesmo que a obra esteja traduzida.
 
+  ### 1.5 Verificação manual da qualidade da API
+- "Desconhecido" (Twelve Sharp, ISBN 0312349486): a Open Library
+  não tem este ISBN (numFound = 0). Classificação correta.
+- Amostra de 7 livros classificados como "Não", verificados
+  manualmente na web:
+  - 6 têm edição em português (The Secret Garden, A Little Princess,
+    A Walk to Remember, The Rescue, A Bend in the Road, Bleach);
+  - 1 sem edição em português encontrada (Moloka'i).
+- Conclusão: "Sim" é fiável, mas "Não" só significa "sem registo na
+  Open Library" (cobertura fraca de edições portuguesas/brasileiras).
+- Decisão: o resultado final é uma pré-seleção de candidatos a
+  verificar, não uma lista definitiva.
+- Trabalho futuro: confirmar os "Não" com uma segunda fonte.
+
 ## 2. Transformação
 
 ### 2.1 Normalização do idioma
@@ -64,6 +78,28 @@
   livros com popularidade comprovada (um bom indicador de procura) e
   reduz o número de pedidos à API da Open Library para uma quantidade
   razoável (cerca de 360 pedidos, em vez de quase 1000).
+
+### 2.3 Duplicados
+- Duas edições da mesma obra têm o mesmo identificador na Open
+  Library (ol_work_key). Duplicate Row Filter por ol_work_key,
+  mantendo a edição com mais avaliações.
+- 3 duplicados removidos: 363 → 360 livros.
+- Candidatos "Não" (pré-seleção a verificar): 255
+
+### 2.4 Géneros (regex + generos.xml)
+- Regras de géneros num ficheiro XML externo (8 géneros, padrões regex).
+- Falsos positivos encontrados e corrigidos:
+  - "science" apanhava "science fiction" → `science(?! fiction)`
+    (negative lookahead);
+  - "war" apanhava "warlocks" e "award" → `\bwar\b`
+    (fronteira de palavra).
+- Correção feita só no XML, sem alterar o workflow.
+- Resultado (255 candidatos): Fantasia 52, Histórico 39, Juvenil 37,
+  Policial e thriller 37, Outro 25, Biografia 23, Romance 17,
+  Não-ficção 13, Ficção científica 12. Total confirmado: 255.
+- Género principal = o género com mais subjects correspondentes.
+  Limitação: em caso de empate, fica um dos géneros empatados.
+- 25 livros (~10%) sem género reconhecido → "Outro".
 
 ## 3. Decisões de negócio
 - Candidatos restringidos a livros em inglês: a maioria das traduções
