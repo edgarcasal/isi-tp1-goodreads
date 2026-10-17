@@ -75,5 +75,12 @@
 - Livro 6549: título começa com espaços.
 - publication_date ainda está como texto (converter para data).
 - Código "nl" tem 2 letras (os outros têm 3); tratar no idiomas.xml.
+- Códigos de idioma da Open Library diferem dos do Goodreads
+  (ex.: "chi" vs "zho"); mapear ambos no idiomas.xml.
 - O mesmo livro aparece várias vezes em edições diferentes
   (remover duplicados nos candidatos).
+- Subjects confusos (várias línguas, etiquetas técnicas como
+  "nyt:..." e "Reading Level"); converter em géneros com regex
+  e generos.xml.
+- Remover colunas técnicas antes de carregar na BD: body, url,
+  Status, Content type, bookID (Right), Count*(ol_languages).
