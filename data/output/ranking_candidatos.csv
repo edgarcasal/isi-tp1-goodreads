@@ -1,0 +1,256 @@
+"genero","posicao","titulo","autores","rating_medio","num_avaliacoes","num_edicoes","pontuacao"
+"Biografia",1,"The Glass Castle","Jeannette Walls",4.27,808656,32,4.251
+"Biografia",2,"Surely You're Joking  Mr. Feynman!: Adventures of a Curious Character","Richard P. Feynman",4.28,106526,45,4.172
+"Biografia",3,"Persepolis: The Story of a Childhood (Persepolis  #1)","Marjane Satrapi/Mattias Ripa",4.25,144121,10,4.171
+"Biografia",4,"Into Thin Air: A Personal Account of the Mount Everest Disaster","Jon Krakauer",4.17,351406,54,4.142
+"Biografia",5,"Alexander Hamilton","Ron Chernow",4.23,97099,15,4.132
+"Biografia",6,"Anne Frank Remembered: The Story of the Woman Who Helped to Hide the Frank Family","Miep Gies/Alison Leslie Gold",4.29,55487,1,4.126
+"Biografia",7,"Marley and Me: Life and Love With the World's Worst Dog","John Grogan",4.13,414947,14,4.11
+"Biografia",8,"Persepolis 2: The Story of a Return (Persepolis  #2)","Marjane Satrapi/Anjali Singh",4.24,57309,5,4.102
+"Biografia",9,"Mountains Beyond Mountains: The Quest of Dr. Paul Farmer  a Man Who Would Cure the World","Tracy Kidder",4.21,63813,31,4.093
+"Biografia",10,"My Life in France","Julia Child/Alex Prud'Homme",4.17,69153,8,4.075
+"Biografia",11,"A Beautiful Mind","Sylvia Nasar",4.13,115201,35,4.073
+"Biografia",12,"Einstein: His Life and Universe","Walter Isaacson",4.11,113315,45,4.059
+"Biografia",13,"For One More Day","Mitch Albom",4.1,113593,33,4.052
+"Biografia",14,"Truman","David McCullough",4.12,71764,9,4.047
+"Biografia",15,"Black Like Me","John Howard Griffin",4.13,53790,43,4.04
+"Biografia",16,"The Color of Water: A Black Man's Tribute to His White Mother","James   McBride",4.09,92989,30,4.039
+"Biografia",17,"The Lost Boy (Dave Pelzer #2)","Dave Pelzer",4.1,52028,16,4.023
+"Biografia",18,"Travels with Charley: In Search of America","John Steinbeck",4.08,56349,78,4.016
+"Biografia",19,"Blankets","Craig Thompson",4.05,86159,11,4.011
+"Biografia",20,"Animal  Vegetable  Miracle: A Year of Food Life","Barbara Kingsolver/Steven L. Hopp/Camille Kingsolver/Richard A. Houser",4.04,86290,23,4.004
+"Biografia",21,"A Moveable Feast","Ernest Hemingway",4.04,82993,25,4.004
+"Biografia",22,"Dry","Augusten Burroughs",4.03,77100,18,3.996
+"Biografia",23,"The Pilgrim's Progress","John Bunyan",4,87175,683,3.979
+"Fantasia",1,"J.R.R. Tolkien 4-Book Boxed Set: The Hobbit and The Lord of the Rings","J.R.R. Tolkien",4.59,101233,27,4.376
+"Fantasia",2,"Fullmetal Alchemist  Vol. 1 (Fullmetal Alchemist  #1)","Hiromu Arakawa/Akira Watanabe",4.5,111091,11,4.327
+"Fantasia",3,"Death Note  Vol. 1: Boredom (Death Note  #1)","Tsugumi Ohba/Takeshi Obata/Pookie Rolf",4.43,174482,12,4.322
+"Fantasia",4,"Lover Awakened (Black Dagger Brotherhood  #3)","J.R. Ward",4.45,144906,4,4.32
+"Fantasia",5,"Dead Beat (The Dresden Files  #7)","Jim Butcher",4.43,91592,2,4.258
+"Fantasia",6,"Lover Eternal (Black Dagger Brotherhood  #2)","J.R. Ward",4.35,155348,3,4.251
+"Fantasia",7,"Season of Mists (The Sandman  #4)","Neil Gaiman/Matt Wagner/George Pratt/Dick Giordano/Kelley Jones/P. Craig Russell/Mike Dringenberg/Malcolm Jones III/Todd Klein/Harlan Ellison",4.54,50951,15,4.244
+"Fantasia",8,"The Princess Bride","William Goldman",4.26,703676,31,4.239
+"Fantasia",9,"The Doll's House (The Sandman  #2)","Neil Gaiman/Steve Parkhouse/Chris Bachalo/Michael Zulli/Mike Dringenberg/Malcolm Jones III/Todd Klein/Clive Barker",4.44,63599,14,4.221
+"Fantasia",10,"Howl's Moving Castle (Howl's Moving Castle  #1)","Diana Wynne Jones",4.29,161582,37,4.208
+"Fantasia",11,"Animal Farm / 1984","George Orwell/Christopher Hitchens",4.28,146659,48,4.194
+"Fantasia",12,"The Dragon Reborn (The Wheel of Time  #3)","Robert Jordan",4.25,183950,40,4.184
+"Fantasia",13,"Preludes & Nocturnes (The Sandman  #1)","Neil Gaiman/Sam Kieth/Mike Dringenberg/Malcolm Jones III/Todd Klein/Karen  Berger",4.24,171841,15,4.173
+"Fantasia",14,"The Shadow Rising (The Wheel of Time  #4)","Robert Jordan",4.24,148074,34,4.165
+"Fantasia",15,"Cursor's Fury (Codex Alera  #3)","Jim Butcher",4.36,50427,1,4.152
+"Fantasia",16,"Wild Magic (Immortals  #1)","Tamora Pierce",4.32,61677,22,4.151
+"Fantasia",17,"Bleach  Volume 01","Tite Kubo",4.22,140403,16,4.147
+"Fantasia",18,"Lioness Rampant (Song of the Lioness  #4)","Tamora Pierce",4.28,72386,25,4.142
+"Fantasia",19,"Every Which Way But Dead (The Hollows  #3)","Kim Harrison",4.29,60083,3,4.132
+"Fantasia",20,"Reaper Man (Discworld  #11; Death  #2)","Terry Pratchett",4.28,63287,45,4.131
+"Fantasia",21,"Dream Country (The Sandman  #3)","Neil Gaiman/Kelley Jones/Charles Vess/Colleen Doran/Malcolm Jones III/Steve Erickson",4.24,84421,17,4.13
+"Fantasia",22,"A Hat Full of Sky (Discworld  #32; Tiffany Aching  #2)","Terry Pratchett",4.3,51562,48,4.124
+"Fantasia",23,"In the Hand of the Goddess (Song of the Lioness  #2)","Tamora Pierce",4.24,77540,26,4.124
+"Fantasia",24,"The Good  the Bad  and the Undead (The Hollows  #2)","Kim Harrison",4.26,54083,13,4.108
+"Fantasia",25,"Hogfather (Discworld  #20; Death  #4)","Terry Pratchett",4.23,60162,40,4.1
+"Fantasia",26,"The Fires of Heaven (The Wheel of Time  #5)","Robert Jordan",4.16,113052,36,4.093
+"Fantasia",27,"Wizard's First Rule (Sword of Truth  #1)","Terry Goodkind",4.13,204648,51,4.093
+"Fantasia",28,"Witches Abroad (Discworld  #12; Witches #3)","Terry Pratchett",4.22,58408,41,4.092
+"Fantasia",29,"Assassin's Quest (Farseer Trilogy  #3)","Robin Hobb",4.18,67473,21,4.079
+"Fantasia",30,"Lord of Chaos (The Wheel of Time  #6)","Robert Jordan",4.13,109234,31,4.071
+"Fantasia",31,"Lords and Ladies (Discworld  #14; Witches #4)","Terry Pratchett",4.17,53721,51,4.061
+"Fantasia",32,"Stardust","Neil Gaiman",4.08,283274,62,4.059
+"Fantasia",33,"Redwall (Redwall  #1)","Brian Jacques",4.12,88167,59,4.056
+"Fantasia",34,"Furies of Calderon (Codex Alera  #1)","Jim Butcher",4.12,84357,2,4.054
+"Fantasia",35,"Wyrd Sisters (Discworld  #6; Witches #2)","Terry Pratchett",4.13,72785,49,4.054
+"Fantasia",36,"Terrier (Beka Cooper  #1)","Tamora Pierce",4.15,56973,10,4.053
+"Fantasia",37,"Fablehaven (Fablehaven  #1)","Brandon Mull",4.1,117341,23,4.053
+"Fantasia",38,"The Farthest Shore (Earthsea Cycle  #3)","Ursula K. Le Guin",4.12,79809,65,4.052
+"Fantasia",39,"The Witching Hour (Lives of the Mayfair Witches  #1)","Anne Rice",4.11,87816,42,4.049
+"Fantasia",40,"The Killing Dance (Anita Blake  Vampire Hunter  #6)","Laurell K. Hamilton",4.13,59524,3,4.045
+"Fantasia",41,"The Lunatic Cafe (Anita Blake  Vampire Hunter #4)","Laurell K. Hamilton",4.12,64036,18,4.042
+"Fantasia",42,"The Black Cauldron (The Chronicles of Prydain  #2)","Lloyd Alexander",4.13,53962,60,4.04
+"Fantasia",43,"The Tombs of Atuan (Earthsea Cycle  #2)","Ursula K. Le Guin/Margot Paronis",4.09,73161,67,4.03
+"Fantasia",44,"A Dirty Job (Grim Reaper  #1)","Christopher Moore",4.07,90947,2,4.025
+"Fantasia",45,"Magic Bites (Kate Daniels  #1)","Ilona Andrews",4.07,86675,2,4.024
+"Fantasia",46,"The Once and Future King (The Once and Future King  #1-4)","T.H. White",4.07,85082,81,4.023
+"Fantasia",47,"The Tale of Despereaux","Kate DiCamillo/Timothy Basil Ering",4.04,142149,52,4.015
+"Fantasia",48,"A Crown of Swords (The Wheel of Time  #7)","Robert Jordan",4.04,106712,35,4.009
+"Fantasia",49,"Dead Witch Walking (The Hollows  #1)","Kim Harrison",4.04,99076,12,4.008
+"Fantasia",50,"Blue Moon (Anita Blake  Vampire Hunter  #8)","Laurell K. Hamilton",4.05,55670,1,3.999
+"Fantasia",51,"Smoke and Mirrors: Short Fiction and Illusions","Neil Gaiman",4.04,53464,24,3.993
+"Fantasia",52,"Peter and the Starcatchers (Peter and the Starcatchers  #1)","Dave Barry/Ridley Pearson/Greg Call",4.03,66017,20,3.993
+"Ficção científica",1,"The Ultimate Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1-5)","Douglas Adams",4.38,249558,10,4.307
+"Ficção científica",2,"Ender's Shadow (The Shadow Series  #1)","Orson Scott Card",4.31,133114,33,4.21
+"Ficção científica",3,"Fight Club","Chuck Palahniuk",4.19,388782,40,4.162
+"Ficção científica",4,"Brave New World / Brave New World Revisited","Aldous Huxley/Christopher Hitchens",4.16,129179,28,4.099
+"Ficção científica",5,"The Moon is a Harsh Mistress","Robert A. Heinlein",4.17,93782,53,4.091
+"Ficção científica",6,"The Diamond Age: Or  A Young Lady's Illustrated Primer","Neal Stephenson/Pedro Jorge Romero",4.19,71042,28,4.088
+"Ficção científica",7,"Speaker for the Dead (Ender's Saga  #2)","Orson Scott Card",4.07,190379,39,4.044
+"Ficção científica",8,"Batman: Arkham Asylum - A Serious House on Serious Earth","Grant Morrison/Dave McKean",4.1,51984,22,4.023
+"Ficção científica",9,"The Long Dark Tea-Time of the Soul (Dirk Gently  #2)","Douglas Adams",4.06,67803,34,4.01
+"Ficção científica",10,"I Am Legend","Richard Matheson",4.07,55751,55,4.01
+"Ficção científica",11,"Bitten (Otherworld  #1)","Kelley Armstrong",4.05,79710,23,4.009
+"Ficção científica",12,"A Scanner Darkly","Philip K. Dick",4.02,70604,28,3.988
+"Histórico",1,"A Breath of Snow and Ashes (Outlander  #6)","Diana Gabaldon",4.44,105950,25,4.281
+"Histórico",2,"Band of Brothers: E Company  506th Regiment  101st Airborne from Normandy to Hitler's Eagle's Nest","Stephen E. Ambrose",4.43,82525,26,4.246
+"Histórico",3,"Drums of Autumn (Outlander  #4)","Diana Gabaldon",4.35,141771,32,4.244
+"Histórico",4,"A Fine Balance","Rohinton Mistry",4.36,112196,45,4.231
+"Histórico",5,"Outlander (Outlander  #1)","Diana Gabaldon",4.23,673350,50,4.21
+"Histórico",6,"Exodus","Leon Uris",4.34,85927,29,4.194
+"Histórico",7,"Team of Rivals: The Political Genius of Abraham Lincoln","Doris Kearns Goodwin",4.28,133840,14,4.188
+"Histórico",8,"The Power of One (The Power of One  #1)","Bryce Courtenay",4.35,69167,18,4.179
+"Histórico",9,"The Fiery Cross (Outlander  #5)","Diana Gabaldon/Janos Farkas",4.27,128901,21,4.179
+"Histórico",10,"Lamb: The Gospel According to Biff  Christ's Childhood Pal","Christopher Moore",4.25,135109,6,4.167
+"Histórico",11,"The Red Tent","Anita Diamant",4.17,470858,2,4.148
+"Histórico",12,"Cryptonomicon","Neal Stephenson",4.25,83184,30,4.135
+"Histórico",13,"Mother Night","Kurt Vonnegut Jr.",4.22,64096,60,4.099
+"Histórico",14,"Hawaii","James A. Michener",4.2,66298,47,4.09
+"Histórico",15,"Little Town on the Prairie  (Little House  #7)","Laura Ingalls Wilder/Garth Williams",4.19,71853,58,4.089
+"Histórico",16,"Water for Elephants","Sara Gruen",4.09,1260027,36,4.084
+"Histórico",17,"Notes from Underground  White Nights  The Dream of a Ridiculous Man  and Selections from The House of the Dead","Fyodor Dostoyevsky/Andrew R. MacAndrew/Ben Marcus",4.18,71824,10,4.083
+"Histórico",18,"In the Heart of the Sea: The Tragedy of the Whaleship Essex","Nathaniel Philbrick",4.16,72656,38,4.072
+"Histórico",19,"What Is the What","Dave Eggers",4.16,65767,26,4.066
+"Histórico",20,"A Room of One's Own","Virginia Woolf",4.14,80536,303,4.065
+"Histórico",21,"Snow Flower and the Secret Fan","Lisa See",4.07,297533,9,4.052
+"Histórico",22,"The Poisonwood Bible","Barbara Kingsolver",4.06,613758,47,4.051
+"Histórico",23,"A People's History of the United States","Howard Zinn",4.08,167321,50,4.049
+"Histórico",24,"The Secret Life of Bees","Sue Monk Kidd",4.05,1044725,30,4.045
+"Histórico",25,"A Walk in the Woods: Rediscovering America on the Appalachian Trail","Bill Bryson",4.06,308840,35,4.044
+"Histórico",26,"John Adams","David McCullough",4.06,282649,13,4.042
+"Histórico",27,"1776","David McCullough",4.07,166916,16,4.041
+"Histórico",28,"The Clan of the Cave Bear (Earth's Children  #1)","Jean M. Auel",4.05,184418,89,4.027
+"Histórico",29,"Birdsong","Sebastian Faulks",4.09,57513,46,4.022
+"Histórico",30,"In a Sunburned Country","Bill Bryson",4.07,72451,34,4.018
+"Histórico",31,"Pope Joan","Donna Woolfolk Cross",4.08,56471,1,4.016
+"Histórico",32,"Cyrano de Bergerac","Edmond Rostand/Eteel Lawson/Lowell Bair",4.06,62116,309,4.008
+"Histórico",33,"World War Z: An Oral History of the Zombie War","Max Brooks",4.01,370331,46,4.002
+"Histórico",34,"Year of Wonders","Geraldine Brooks",4.01,120736,21,3.99
+"Histórico",35,"The Hunchback of Notre-Dame","Victor Hugo/Walter J. Cobb",4,140529,265,3.985
+"Histórico",36,"Bleak House","Charles Dickens/Nicola Bradbury/Hablot Knight Browne",4.01,80104,418,3.984
+"Histórico",37,"1491: New Revelations of the Americas Before Columbus","Charles C. Mann",4.02,56290,17,3.984
+"Histórico",38,"I Capture the Castle","Dodie Smith",4,65013,78,3.975
+"Histórico",39,"The Valley of Horses (Earth's Children  #2)","Jean M. Auel",4,59723,88,3.974
+"Juvenil",1,"A Light in the Attic","Shel Silverstein",4.34,349247,27,4.29
+"Juvenil",2,"The Monster at the End of this Book","Jon Stone/Michael J. Smollin",4.44,114297,15,4.289
+"Juvenil",3,"The Complete Stories and Poems","Edgar Allan Poe",4.38,183869,6,4.287
+"Juvenil",4,"The Lorax","Dr. Seuss",4.35,260054,23,4.284
+"Juvenil",5,"Matilda","Roald Dahl/Quentin Blake",4.31,541914,184,4.279
+"Juvenil",6,"Goodnight Moon","Margaret Wise Brown/Clement Hurd",4.28,276426,143,4.228
+"Juvenil",7,"The Kissing Hand","Audrey Penn/Ruth E. Harper/Nancy M. Leak",4.43,57737,7,4.204
+"Juvenil",8,"The Miraculous Journey of Edward Tulane","Kate DiCamillo/Bagram Ibatoulline",4.37,66426,28,4.187
+"Juvenil",9,"Essential Tales and Poems","Edgar Allan Poe/Benjamin F. Fisher",4.36,66382,1,4.181
+"Juvenil",10,"The Prince of Tides","Pat Conroy",4.24,178717,15,4.175
+"Juvenil",11,"A Little Princess","Frances Hodgson Burnett/Nancy Bond",4.2,238192,47,4.155
+"Juvenil",12,"Alanna: The First Adventure (Song of the Lioness  #1)","Tamora Pierce",4.26,101059,38,4.155
+"Juvenil",13,"Little House in the Big Woods (Little House  #1)","Laura Ingalls Wilder/Garth Williams",4.18,201840,120,4.133
+"Juvenil",14,"The Tale of Peter Rabbit","Beatrix Potter",4.18,188842,159,4.13
+"Juvenil",15,"The Giver (The Giver  #1)","Lois Lowry",4.13,1585589,106,4.124
+"Juvenil",16,"The Secret Garden","Frances Hodgson Burnett",4.13,764134,1598,4.119
+"Juvenil",17,"Cloudy With a Chance of Meatballs (Cloudy with a Chance of Meatballs  #1)","Judi Barrett/Ron Barrett",4.16,124141,3,4.098
+"Juvenil",18,"Horton Hears a Who!","Dr. Seuss",4.18,89920,18,4.095
+"Juvenil",19,"School's Out—Forever (Maximum Ride  #2)","James Patterson",4.15,103221,29,4.082
+"Juvenil",20,"Sideways Stories from Wayside School (Wayside School #1)","Louis Sachar/Adam McCauley",4.15,81090,31,4.071
+"Juvenil",21,"Saving the World and Other Extreme Sports (Maximum Ride  #3)","James Patterson",4.15,80643,34,4.071
+"Juvenil",22,"The Rescue","Nicholas Sparks",4.11,154933,13,4.069
+"Juvenil",23,"The Spirit Catches You and You Fall Down: A Hmong Child  Her American Doctors  and the Collision of Two Cultures","Anne Fadiman",4.17,60656,19,4.067
+"Juvenil",24,"The Long Winter (Little House  #6)","Laura Ingalls Wilder/Garth Williams",4.14,67427,62,4.056
+"Juvenil",25,"Tales of a Fourth Grade Nothing (Fudge  #1)","Judy Blume",4.1,122085,56,4.054
+"Juvenil",26,"The Angel Experiment (Maximum Ride  #1)","James Patterson",4.08,187892,43,4.051
+"Juvenil",27,"Illusions: The Adventures of a Reluctant Messiah","Richard Bach",4.15,50816,34,4.047
+"Juvenil",28,"I Am the Messenger","Markus Zusak/Emmanuel Pailler",4.07,110898,32,4.031
+"Juvenil",29,"The Trumpet of the Swan","E.B. White/Fred Marcellino",4.08,63915,63,4.02
+"Juvenil",30,"Fantastic Mr. Fox","Roald Dahl/Quentin Blake",4.05,83723,161,4.01
+"Juvenil",31,"This Lullaby","Sarah Dessen",4.03,163599,6,4.01
+"Juvenil",32,"My Side of the Mountain (Mountain  #1)","Jean Craighead George",4.06,55045,45,4.004
+"Juvenil",33,"Beauty: A Retelling of the Story of Beauty and the Beast","Robin McKinley",4.05,63876,31,4.003
+"Juvenil",34,"James and the Giant Peach","Roald Dahl/Quentin Blake",4.01,328542,167,4.001
+"Juvenil",35,"The Westing Game","Ellen Raskin",4.02,142121,16,4
+"Juvenil",36,"The Jungle Books","Rudyard Kipling/Alev Lytle Croutier",4.02,78036,71,3.99
+"Juvenil",37,"The Cricket in Times Square","George Selden/Garth Williams",4.02,55747,77,3.984
+"Não-ficção",1,"Man's Search for Meaning","Viktor E. Frankl/Harold S. Kushner/William J. Winslade/Isle Lasch",4.36,282127,111,4.297
+"Não-ficção",2,"Moneyball: The Art of Winning an Unfair Game","Michael   Lewis",4.26,85094,16,4.143
+"Não-ficção",3,"Meditations","Marcus Aurelius/Martin Hammond/Albert Wittstock/Diskin Clay",4.23,76332,643,4.116
+"Não-ficção",4,"Nine Stories","J.D. Salinger",4.19,112779,82,4.114
+"Não-ficção",5,"Kafka on the Shore","Haruki Murakami/Philip Gabriel",4.14,225397,61,4.104
+"Não-ficção",6,"Interpreter of Maladies","Jhumpa Lahiri",4.15,131876,29,4.093
+"Não-ficção",7,"Influence: The Psychology of Persuasion","Robert B. Cialdini",4.19,76314,28,4.092
+"Não-ficção",8,"The Power of Now: A Guide to Spiritual Enlightenment","Eckhart Tolle",4.13,159883,45,4.085
+"Não-ficção",9,"Who's Afraid of Virginia Woolf?","Edward Albee",4.08,53955,51,4.014
+"Não-ficção",10,"The Five Dysfunctions of a Team: A Leadership Fable","Patrick Lencioni",4.04,65444,18,3.998
+"Não-ficção",11,"The Fall","Albert Camus/Justin O'Brien",4.04,53697,145,3.993
+"Não-ficção",12,"The Millionaire Next Door: The Surprising Secrets of America's Wealthy","Thomas J. Stanley/William D. Danko",4.03,61760,21,3.991
+"Não-ficção",13,"Emotional Intelligence: Why It Can Matter More Than IQ","Daniel Goleman",4.01,63501,40,3.981
+"Outro",1,"Different Seasons","Stephen King",4.35,127648,18,4.235
+"Outro",2,"A Tree Grows in Brooklyn","Betty  Smith",4.26,345283,87,4.22
+"Outro",3,"The Cat in the Hat and Other Dr. Seuss Favorites","Dr. Seuss/Various",4.42,50844,3,4.184
+"Outro",4,"The Prophet","Kahlil Gibran/جبران خليل جبران/Jihad El",4.23,184293,570,4.169
+"Outro",5,"The Great Divorce","C.S. Lewis",4.28,87527,34,4.158
+"Outro",6,"The Screwtape Letters","C.S. Lewis",4.22,116834,32,4.137
+"Outro",7,"Scott Pilgrim  Volume 1: Scott Pilgrim's Precious Little Life","Bryan Lee O'Malley",4.17,155863,17,4.115
+"Outro",8,"Jitterbug Perfume","Tom Robbins",4.25,54516,13,4.103
+"Outro",9,"Anne Rice's The Vampire Lestat: A Graphic Novel","Faye Perozich/Anne Rice/John Bolton/Daerick Gröss",4.2,70039,1,4.093
+"Outro",10,"Moloka'i (Moloka'i #1)","Alan Brennert",4.17,91395,6,4.09
+"Outro",11,"The Art of Happiness","Dalai Lama XIV/Howard C. Cutler",4.16,80161,31,4.077
+"Outro",12,"The Elements of Style","William Strunk Jr./E.B. White",4.19,53669,288,4.071
+"Outro",13,"Howl and Other Poems","Allen Ginsberg/William Carlos Williams",4.13,85143,9,4.061
+"Outro",14,"Ham on Rye","Charles Bukowski",4.14,65829,11,4.055
+"Outro",15,"The Hot Zone: The Terrifying True Story of the Origins of the Ebola Virus","Richard Preston",4.12,85408,24,4.055
+"Outro",16,"How to Stop Worrying and Start Living","Dale Carnegie",4.12,61639,52,4.041
+"Outro",17,"Burnt Offerings (Anita Blake  Vampire Hunter  #7)","Laurell K. Hamilton",4.08,58849,1,4.017
+"Outro",18,"Aesop's Fables","Aesop/Laura Harris/Laura Gibbs",4.05,97136,1,4.014
+"Outro",19,"Song of Solomon","Toni Morrison",4.06,73894,63,4.013
+"Outro",20,"Rosencrantz and Guildenstern Are Dead","Tom Stoppard",4.06,73863,55,4.013
+"Outro",21,"Cannery Row","John Steinbeck",4.04,96408,96,4.007
+"Outro",22,"The Iliad/The Odyssey","Homer/Robert Fagles/Bernard Knox",4.04,54939,1,3.994
+"Outro",23,"The Kitchen God's Wife","Amy Tan",4.01,66503,54,3.981
+"Outro",24,"Prodigal Summer","Barbara Kingsolver",4,88241,23,3.979
+"Outro",25,"The War of Art: Break Through the Blocks & Win Your Inner Creative Battles","Steven Pressfield/Robert McKee",4,53653,2,3.973
+"Policial e thriller",1,"The Bone Collector (Lincoln Rhyme  #1)","Jeffery Deaver",4.19,140014,38,4.125
+"Policial e thriller",2,"This Present Darkness (Darkness  #1)","Frank E. Peretti",4.22,86548,26,4.119
+"Policial e thriller",3,"Hot Six (Stephanie Plum  #6)","Janet Evanovich",4.19,108961,18,4.112
+"Policial e thriller",4,"Four to Score (Stephanie Plum  #4)","Janet Evanovich",4.17,117541,19,4.102
+"Policial e thriller",5,"The Guardian","Nicholas Sparks",4.15,148042,9,4.098
+"Policial e thriller",6,"Patriot Games (Jack Ryan  #1)","Tom Clancy",4.14,170797,17,4.095
+"Policial e thriller",7,"Hard Eight (Stephanie Plum  #8)","Janet Evanovich/Lorelei King",4.17,101730,23,4.095
+"Policial e thriller",8,"Nineteen Minutes","Jodi Picoult",4.12,270574,33,4.092
+"Policial e thriller",9,"To the Nines (Stephanie Plum  #9)","Janet Evanovich",4.17,94990,19,4.092
+"Policial e thriller",10,"Three to Get Deadly (Stephanie Plum  #3)","Janet Evanovich",4.15,125114,19,4.091
+"Policial e thriller",11,"Along Came a Spider (Alex Cross  #1)","James Patterson",4.11,369267,65,4.09
+"Policial e thriller",12,"Seven Up (Stephanie Plum  #7)","Janet Evanovich",4.16,103618,35,4.089
+"Policial e thriller",13,"The Poet (Jack McEvoy  #1; Harry Bosch Universe  #5)","Michael Connelly",4.2,64309,15,4.088
+"Policial e thriller",14,"Eleven on Top (Stephanie Plum  #11)","Janet Evanovich",4.16,91695,25,4.083
+"Policial e thriller",15,"No Country for Old Men","Cormac McCarthy",4.14,120421,45,4.082
+"Policial e thriller",16,"Circus of the Damned (Anita Blake  Vampire Hunter  #3)","Laurell K. Hamilton",4.17,78062,5,4.081
+"Policial e thriller",17,"The Secret History","Donna Tartt",4.1,234929,54,4.072
+"Policial e thriller",18,"Without Remorse (John Clark  #1; Jack Ryan Universe Publication Order #6)","Tom Clancy",4.18,53936,35,4.066
+"Policial e thriller",19,"Without Fail (Jack Reacher  #6)","Lee Child/Dick Hill",4.15,64395,42,4.06
+"Policial e thriller",20,"1st to Die (Women's Murder Club  #1)","James Patterson",4.08,269826,67,4.059
+"Policial e thriller",21,"The Black Echo (Harry Bosch  #1; Harry Bosch Universe  #1)","Michael Connelly",4.1,125864,13,4.055
+"Policial e thriller",22,"The Laughing Corpse (Anita Blake  Vampire Hunter  #2)","Laurell K. Hamilton",4.12,67686,7,4.045
+"Policial e thriller",23,"Rules of Prey (Lucas Davenport  #1)","John Sandford",4.11,62767,15,4.036
+"Policial e thriller",24,"The Bachman Books","Richard Bachman/Stephen King",4.11,62529,19,4.036
+"Policial e thriller",25,"Bloody Bones (Anita Blake  Vampire Hunter #5)","Laurell K. Hamilton",4.11,60937,2,4.035
+"Policial e thriller",26,"The Alienist (Dr. Laszlo Kreizler  #1)","Caleb Carr",4.06,126669,46,4.027
+"Policial e thriller",27,"Blindsighted (Grant County  #1)","Karin Slaughter",4.09,53996,24,4.019
+"Policial e thriller",28,"4th of July (Women's Murder Club  #4)","James Patterson/Maxine Paetro",4.07,62523,51,4.014
+"Policial e thriller",29,"The Bourne Identity (Jason Bourne  #1)","Robert Ludlum",4.02,368195,1,4.011
+"Policial e thriller",30,"The Firm","Robin Waterfield/John Grisham",4.01,540910,7,4.004
+"Policial e thriller",31,"2nd Chance (Women's Murder Club  #2)","James Patterson/Andrew Gross",4.04,78780,56,4.002
+"Policial e thriller",32,"The Body Farm (Kay Scarpetta  #5)","Patricia Cornwell",4.05,57415,57,4
+"Policial e thriller",33,"The Bourne Ultimatum (Jason Bourne  #3)","Robert Ludlum",4.05,52976,11,3.998
+"Policial e thriller",34,"The Client","John Grisham",4,367399,80,3.993
+"Policial e thriller",35,"The Pelican Brief","John Grisham",4,340714,82,3.993
+"Policial e thriller",36,"The A.B.C. Murders (Hercule Poirot  #13)","Agatha Christie",4.01,69806,142,3.982
+"Policial e thriller",37,"Pop Goes the Weasel (Alex Cross  #5)","James Patterson",4,52093,45,3.972
+"Romance",1,"Voyager (Outlander  #3)","Diana Gabaldon",4.39,198818,39,4.3
+"Romance",2,"Dragonfly in Amber (Outlander  #2)","Diana Gabaldon",4.32,222140,45,4.251
+"Romance",3,"Lover Revealed (Black Dagger Brotherhood  #4)","J.R. Ward",4.3,106469,4,4.186
+"Romance",4,"Rebecca","Daphne du Maurier/Sally Beauman",4.23,179639,200,4.168
+"Romance",5,"Dark Lover (Black Dagger Brotherhood  #1)","J.R. Ward",4.2,259511,17,4.159
+"Romance",6,"The Amazing Adventures of Kavalier & Clay","Michael Chabon",4.18,165862,36,4.125
+"Romance",7,"Suzanne's Diary for Nicholas","James Patterson",4.17,131662,45,4.108
+"Romance",8,"A Hunger Like No Other (Immortals After Dark  #1)","Kresley Cole",4.19,57010,9,4.075
+"Romance",9,"The Unbearable Lightness of Being","Milan Kundera/Michael Henry Heim",4.1,248686,81,4.074
+"Romance",10,"The Shell Seekers","Rosamunde Pilcher",4.15,84085,57,4.073
+"Romance",11,"Dear John","Nicholas Sparks",4.03,502726,12,4.022
+"Romance",12,"Where the Heart Is","Billie Letts",4.02,227716,27,4.006
+"Romance",13,"A Bend in the Road","Nicholas Sparks",4.03,125693,11,4.005
+"Romance",14,"Still Life with Woodpecker","Tom Robbins",4.05,63155,19,4.003
+"Romance",15,"Guilty Pleasures (Anita Blake  Vampire Hunter  #1)","Laurell K. Hamilton",4.02,115364,6,3.997
+"Romance",16,"Circle of Friends","Maeve Binchy/René Huigen/Frans Thomése",4.03,51839,57,3.987
+"Romance",17,"Brideshead Revisited","Evelyn Waugh",4,79045,88,3.978

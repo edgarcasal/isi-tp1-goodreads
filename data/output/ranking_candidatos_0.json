@@ -1,0 +1,2296 @@
+[ {
+  "genero" : "Biografia",
+  "posicao" : 1,
+  "titulo" : "The Glass Castle",
+  "autores" : "Jeannette Walls",
+  "rating_medio" : 4.27,
+  "num_avaliacoes" : 808656,
+  "num_edicoes" : 32,
+  "pontuacao" : 4.251
+}, {
+  "genero" : "Biografia",
+  "posicao" : 2,
+  "titulo" : "Surely You're Joking  Mr. Feynman!: Adventures of a Curious Character",
+  "autores" : "Richard P. Feynman",
+  "rating_medio" : 4.28,
+  "num_avaliacoes" : 106526,
+  "num_edicoes" : 45,
+  "pontuacao" : 4.172
+}, {
+  "genero" : "Biografia",
+  "posicao" : 3,
+  "titulo" : "Persepolis: The Story of a Childhood (Persepolis  #1)",
+  "autores" : "Marjane Satrapi/Mattias Ripa",
+  "rating_medio" : 4.25,
+  "num_avaliacoes" : 144121,
+  "num_edicoes" : 10,
+  "pontuacao" : 4.171
+}, {
+  "genero" : "Biografia",
+  "posicao" : 4,
+  "titulo" : "Into Thin Air: A Personal Account of the Mount Everest Disaster",
+  "autores" : "Jon Krakauer",
+  "rating_medio" : 4.17,
+  "num_avaliacoes" : 351406,
+  "num_edicoes" : 54,
+  "pontuacao" : 4.142
+}, {
+  "genero" : "Biografia",
+  "posicao" : 5,
+  "titulo" : "Alexander Hamilton",
+  "autores" : "Ron Chernow",
+  "rating_medio" : 4.23,
+  "num_avaliacoes" : 97099,
+  "num_edicoes" : 15,
+  "pontuacao" : 4.132
+}, {
+  "genero" : "Biografia",
+  "posicao" : 6,
+  "titulo" : "Anne Frank Remembered: The Story of the Woman Who Helped to Hide the Frank Family",
+  "autores" : "Miep Gies/Alison Leslie Gold",
+  "rating_medio" : 4.29,
+  "num_avaliacoes" : 55487,
+  "num_edicoes" : 1,
+  "pontuacao" : 4.126
+}, {
+  "genero" : "Biografia",
+  "posicao" : 7,
+  "titulo" : "Marley and Me: Life and Love With the World's Worst Dog",
+  "autores" : "John Grogan",
+  "rating_medio" : 4.13,
+  "num_avaliacoes" : 414947,
+  "num_edicoes" : 14,
+  "pontuacao" : 4.11
+}, {
+  "genero" : "Biografia",
+  "posicao" : 8,
+  "titulo" : "Persepolis 2: The Story of a Return (Persepolis  #2)",
+  "autores" : "Marjane Satrapi/Anjali Singh",
+  "rating_medio" : 4.24,
+  "num_avaliacoes" : 57309,
+  "num_edicoes" : 5,
+  "pontuacao" : 4.102
+}, {
+  "genero" : "Biografia",
+  "posicao" : 9,
+  "titulo" : "Mountains Beyond Mountains: The Quest of Dr. Paul Farmer  a Man Who Would Cure the World",
+  "autores" : "Tracy Kidder",
+  "rating_medio" : 4.21,
+  "num_avaliacoes" : 63813,
+  "num_edicoes" : 31,
+  "pontuacao" : 4.093
+}, {
+  "genero" : "Biografia",
+  "posicao" : 10,
+  "titulo" : "My Life in France",
+  "autores" : "Julia Child/Alex Prud'Homme",
+  "rating_medio" : 4.17,
+  "num_avaliacoes" : 69153,
+  "num_edicoes" : 8,
+  "pontuacao" : 4.075
+}, {
+  "genero" : "Biografia",
+  "posicao" : 11,
+  "titulo" : "A Beautiful Mind",
+  "autores" : "Sylvia Nasar",
+  "rating_medio" : 4.13,
+  "num_avaliacoes" : 115201,
+  "num_edicoes" : 35,
+  "pontuacao" : 4.073
+}, {
+  "genero" : "Biografia",
+  "posicao" : 12,
+  "titulo" : "Einstein: His Life and Universe",
+  "autores" : "Walter Isaacson",
+  "rating_medio" : 4.11,
+  "num_avaliacoes" : 113315,
+  "num_edicoes" : 45,
+  "pontuacao" : 4.059
+}, {
+  "genero" : "Biografia",
+  "posicao" : 13,
+  "titulo" : "For One More Day",
+  "autores" : "Mitch Albom",
+  "rating_medio" : 4.1,
+  "num_avaliacoes" : 113593,
+  "num_edicoes" : 33,
+  "pontuacao" : 4.052
+}, {
+  "genero" : "Biografia",
+  "posicao" : 14,
+  "titulo" : "Truman",
+  "autores" : "David McCullough",
+  "rating_medio" : 4.12,
+  "num_avaliacoes" : 71764,
+  "num_edicoes" : 9,
+  "pontuacao" : 4.047
+}, {
+  "genero" : "Biografia",
+  "posicao" : 15,
+  "titulo" : "Black Like Me",
+  "autores" : "John Howard Griffin",
+  "rating_medio" : 4.13,
+  "num_avaliacoes" : 53790,
+  "num_edicoes" : 43,
+  "pontuacao" : 4.04
+}, {
+  "genero" : "Biografia",
+  "posicao" : 16,
+  "titulo" : "The Color of Water: A Black Man's Tribute to His White Mother",
+  "autores" : "James   McBride",
+  "rating_medio" : 4.09,
+  "num_avaliacoes" : 92989,
+  "num_edicoes" : 30,
+  "pontuacao" : 4.039
+}, {
+  "genero" : "Biografia",
+  "posicao" : 17,
+  "titulo" : "The Lost Boy (Dave Pelzer #2)",
+  "autores" : "Dave Pelzer",
+  "rating_medio" : 4.1,
+  "num_avaliacoes" : 52028,
+  "num_edicoes" : 16,
+  "pontuacao" : 4.023
+}, {
+  "genero" : "Biografia",
+  "posicao" : 18,
+  "titulo" : "Travels with Charley: In Search of America",
+  "autores" : "John Steinbeck",
+  "rating_medio" : 4.08,
+  "num_avaliacoes" : 56349,
+  "num_edicoes" : 78,
+  "pontuacao" : 4.016
+}, {
+  "genero" : "Biografia",
+  "posicao" : 19,
+  "titulo" : "Blankets",
+  "autores" : "Craig Thompson",
+  "rating_medio" : 4.05,
+  "num_avaliacoes" : 86159,
+  "num_edicoes" : 11,
+  "pontuacao" : 4.011
+}, {
+  "genero" : "Biografia",
+  "posicao" : 20,
+  "titulo" : "Animal  Vegetable  Miracle: A Year of Food Life",
+  "autores" : "Barbara Kingsolver/Steven L. Hopp/Camille Kingsolver/Richard A. Houser",
+  "rating_medio" : 4.04,
+  "num_avaliacoes" : 86290,
+  "num_edicoes" : 23,
+  "pontuacao" : 4.004
+}, {
+  "genero" : "Biografia",
+  "posicao" : 21,
+  "titulo" : "A Moveable Feast",
+  "autores" : "Ernest Hemingway",
+  "rating_medio" : 4.04,
+  "num_avaliacoes" : 82993,
+  "num_edicoes" : 25,
+  "pontuacao" : 4.004
+}, {
+  "genero" : "Biografia",
+  "posicao" : 22,
+  "titulo" : "Dry",
+  "autores" : "Augusten Burroughs",
+  "rating_medio" : 4.03,
+  "num_avaliacoes" : 77100,
+  "num_edicoes" : 18,
+  "pontuacao" : 3.996
+}, {
+  "genero" : "Biografia",
+  "posicao" : 23,
+  "titulo" : "The Pilgrim's Progress",
+  "autores" : "John Bunyan",
+  "rating_medio" : 4.0,
+  "num_avaliacoes" : 87175,
+  "num_edicoes" : 683,
+  "pontuacao" : 3.979
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 1,
+  "titulo" : "J.R.R. Tolkien 4-Book Boxed Set: The Hobbit and The Lord of the Rings",
+  "autores" : "J.R.R. Tolkien",
+  "rating_medio" : 4.59,
+  "num_avaliacoes" : 101233,
+  "num_edicoes" : 27,
+  "pontuacao" : 4.376
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 2,
+  "titulo" : "Fullmetal Alchemist  Vol. 1 (Fullmetal Alchemist  #1)",
+  "autores" : "Hiromu Arakawa/Akira Watanabe",
+  "rating_medio" : 4.5,
+  "num_avaliacoes" : 111091,
+  "num_edicoes" : 11,
+  "pontuacao" : 4.327
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 3,
+  "titulo" : "Death Note  Vol. 1: Boredom (Death Note  #1)",
+  "autores" : "Tsugumi Ohba/Takeshi Obata/Pookie Rolf",
+  "rating_medio" : 4.43,
+  "num_avaliacoes" : 174482,
+  "num_edicoes" : 12,
+  "pontuacao" : 4.322
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 4,
+  "titulo" : "Lover Awakened (Black Dagger Brotherhood  #3)",
+  "autores" : "J.R. Ward",
+  "rating_medio" : 4.45,
+  "num_avaliacoes" : 144906,
+  "num_edicoes" : 4,
+  "pontuacao" : 4.32
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 5,
+  "titulo" : "Dead Beat (The Dresden Files  #7)",
+  "autores" : "Jim Butcher",
+  "rating_medio" : 4.43,
+  "num_avaliacoes" : 91592,
+  "num_edicoes" : 2,
+  "pontuacao" : 4.258
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 6,
+  "titulo" : "Lover Eternal (Black Dagger Brotherhood  #2)",
+  "autores" : "J.R. Ward",
+  "rating_medio" : 4.35,
+  "num_avaliacoes" : 155348,
+  "num_edicoes" : 3,
+  "pontuacao" : 4.251
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 7,
+  "titulo" : "Season of Mists (The Sandman  #4)",
+  "autores" : "Neil Gaiman/Matt Wagner/George Pratt/Dick Giordano/Kelley Jones/P. Craig Russell/Mike Dringenberg/Malcolm Jones III/Todd Klein/Harlan Ellison",
+  "rating_medio" : 4.54,
+  "num_avaliacoes" : 50951,
+  "num_edicoes" : 15,
+  "pontuacao" : 4.244
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 8,
+  "titulo" : "The Princess Bride",
+  "autores" : "William Goldman",
+  "rating_medio" : 4.26,
+  "num_avaliacoes" : 703676,
+  "num_edicoes" : 31,
+  "pontuacao" : 4.239
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 9,
+  "titulo" : "The Doll's House (The Sandman  #2)",
+  "autores" : "Neil Gaiman/Steve Parkhouse/Chris Bachalo/Michael Zulli/Mike Dringenberg/Malcolm Jones III/Todd Klein/Clive Barker",
+  "rating_medio" : 4.44,
+  "num_avaliacoes" : 63599,
+  "num_edicoes" : 14,
+  "pontuacao" : 4.221
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 10,
+  "titulo" : "Howl's Moving Castle (Howl's Moving Castle  #1)",
+  "autores" : "Diana Wynne Jones",
+  "rating_medio" : 4.29,
+  "num_avaliacoes" : 161582,
+  "num_edicoes" : 37,
+  "pontuacao" : 4.208
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 11,
+  "titulo" : "Animal Farm / 1984",
+  "autores" : "George Orwell/Christopher Hitchens",
+  "rating_medio" : 4.28,
+  "num_avaliacoes" : 146659,
+  "num_edicoes" : 48,
+  "pontuacao" : 4.194
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 12,
+  "titulo" : "The Dragon Reborn (The Wheel of Time  #3)",
+  "autores" : "Robert Jordan",
+  "rating_medio" : 4.25,
+  "num_avaliacoes" : 183950,
+  "num_edicoes" : 40,
+  "pontuacao" : 4.184
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 13,
+  "titulo" : "Preludes & Nocturnes (The Sandman  #1)",
+  "autores" : "Neil Gaiman/Sam Kieth/Mike Dringenberg/Malcolm Jones III/Todd Klein/Karen  Berger",
+  "rating_medio" : 4.24,
+  "num_avaliacoes" : 171841,
+  "num_edicoes" : 15,
+  "pontuacao" : 4.173
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 14,
+  "titulo" : "The Shadow Rising (The Wheel of Time  #4)",
+  "autores" : "Robert Jordan",
+  "rating_medio" : 4.24,
+  "num_avaliacoes" : 148074,
+  "num_edicoes" : 34,
+  "pontuacao" : 4.165
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 15,
+  "titulo" : "Cursor's Fury (Codex Alera  #3)",
+  "autores" : "Jim Butcher",
+  "rating_medio" : 4.36,
+  "num_avaliacoes" : 50427,
+  "num_edicoes" : 1,
+  "pontuacao" : 4.152
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 16,
+  "titulo" : "Wild Magic (Immortals  #1)",
+  "autores" : "Tamora Pierce",
+  "rating_medio" : 4.32,
+  "num_avaliacoes" : 61677,
+  "num_edicoes" : 22,
+  "pontuacao" : 4.151
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 17,
+  "titulo" : "Bleach  Volume 01",
+  "autores" : "Tite Kubo",
+  "rating_medio" : 4.22,
+  "num_avaliacoes" : 140403,
+  "num_edicoes" : 16,
+  "pontuacao" : 4.147
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 18,
+  "titulo" : "Lioness Rampant (Song of the Lioness  #4)",
+  "autores" : "Tamora Pierce",
+  "rating_medio" : 4.28,
+  "num_avaliacoes" : 72386,
+  "num_edicoes" : 25,
+  "pontuacao" : 4.142
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 19,
+  "titulo" : "Every Which Way But Dead (The Hollows  #3)",
+  "autores" : "Kim Harrison",
+  "rating_medio" : 4.29,
+  "num_avaliacoes" : 60083,
+  "num_edicoes" : 3,
+  "pontuacao" : 4.132
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 20,
+  "titulo" : "Reaper Man (Discworld  #11; Death  #2)",
+  "autores" : "Terry Pratchett",
+  "rating_medio" : 4.28,
+  "num_avaliacoes" : 63287,
+  "num_edicoes" : 45,
+  "pontuacao" : 4.131
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 21,
+  "titulo" : "Dream Country (The Sandman  #3)",
+  "autores" : "Neil Gaiman/Kelley Jones/Charles Vess/Colleen Doran/Malcolm Jones III/Steve Erickson",
+  "rating_medio" : 4.24,
+  "num_avaliacoes" : 84421,
+  "num_edicoes" : 17,
+  "pontuacao" : 4.13
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 22,
+  "titulo" : "A Hat Full of Sky (Discworld  #32; Tiffany Aching  #2)",
+  "autores" : "Terry Pratchett",
+  "rating_medio" : 4.3,
+  "num_avaliacoes" : 51562,
+  "num_edicoes" : 48,
+  "pontuacao" : 4.124
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 23,
+  "titulo" : "In the Hand of the Goddess (Song of the Lioness  #2)",
+  "autores" : "Tamora Pierce",
+  "rating_medio" : 4.24,
+  "num_avaliacoes" : 77540,
+  "num_edicoes" : 26,
+  "pontuacao" : 4.124
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 24,
+  "titulo" : "The Good  the Bad  and the Undead (The Hollows  #2)",
+  "autores" : "Kim Harrison",
+  "rating_medio" : 4.26,
+  "num_avaliacoes" : 54083,
+  "num_edicoes" : 13,
+  "pontuacao" : 4.108
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 25,
+  "titulo" : "Hogfather (Discworld  #20; Death  #4)",
+  "autores" : "Terry Pratchett",
+  "rating_medio" : 4.23,
+  "num_avaliacoes" : 60162,
+  "num_edicoes" : 40,
+  "pontuacao" : 4.1
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 26,
+  "titulo" : "The Fires of Heaven (The Wheel of Time  #5)",
+  "autores" : "Robert Jordan",
+  "rating_medio" : 4.16,
+  "num_avaliacoes" : 113052,
+  "num_edicoes" : 36,
+  "pontuacao" : 4.093
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 27,
+  "titulo" : "Wizard's First Rule (Sword of Truth  #1)",
+  "autores" : "Terry Goodkind",
+  "rating_medio" : 4.13,
+  "num_avaliacoes" : 204648,
+  "num_edicoes" : 51,
+  "pontuacao" : 4.093
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 28,
+  "titulo" : "Witches Abroad (Discworld  #12; Witches #3)",
+  "autores" : "Terry Pratchett",
+  "rating_medio" : 4.22,
+  "num_avaliacoes" : 58408,
+  "num_edicoes" : 41,
+  "pontuacao" : 4.092
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 29,
+  "titulo" : "Assassin's Quest (Farseer Trilogy  #3)",
+  "autores" : "Robin Hobb",
+  "rating_medio" : 4.18,
+  "num_avaliacoes" : 67473,
+  "num_edicoes" : 21,
+  "pontuacao" : 4.079
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 30,
+  "titulo" : "Lord of Chaos (The Wheel of Time  #6)",
+  "autores" : "Robert Jordan",
+  "rating_medio" : 4.13,
+  "num_avaliacoes" : 109234,
+  "num_edicoes" : 31,
+  "pontuacao" : 4.071
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 31,
+  "titulo" : "Lords and Ladies (Discworld  #14; Witches #4)",
+  "autores" : "Terry Pratchett",
+  "rating_medio" : 4.17,
+  "num_avaliacoes" : 53721,
+  "num_edicoes" : 51,
+  "pontuacao" : 4.061
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 32,
+  "titulo" : "Stardust",
+  "autores" : "Neil Gaiman",
+  "rating_medio" : 4.08,
+  "num_avaliacoes" : 283274,
+  "num_edicoes" : 62,
+  "pontuacao" : 4.059
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 33,
+  "titulo" : "Redwall (Redwall  #1)",
+  "autores" : "Brian Jacques",
+  "rating_medio" : 4.12,
+  "num_avaliacoes" : 88167,
+  "num_edicoes" : 59,
+  "pontuacao" : 4.056
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 34,
+  "titulo" : "Furies of Calderon (Codex Alera  #1)",
+  "autores" : "Jim Butcher",
+  "rating_medio" : 4.12,
+  "num_avaliacoes" : 84357,
+  "num_edicoes" : 2,
+  "pontuacao" : 4.054
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 35,
+  "titulo" : "Wyrd Sisters (Discworld  #6; Witches #2)",
+  "autores" : "Terry Pratchett",
+  "rating_medio" : 4.13,
+  "num_avaliacoes" : 72785,
+  "num_edicoes" : 49,
+  "pontuacao" : 4.054
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 36,
+  "titulo" : "Terrier (Beka Cooper  #1)",
+  "autores" : "Tamora Pierce",
+  "rating_medio" : 4.15,
+  "num_avaliacoes" : 56973,
+  "num_edicoes" : 10,
+  "pontuacao" : 4.053
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 37,
+  "titulo" : "Fablehaven (Fablehaven  #1)",
+  "autores" : "Brandon Mull",
+  "rating_medio" : 4.1,
+  "num_avaliacoes" : 117341,
+  "num_edicoes" : 23,
+  "pontuacao" : 4.053
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 38,
+  "titulo" : "The Farthest Shore (Earthsea Cycle  #3)",
+  "autores" : "Ursula K. Le Guin",
+  "rating_medio" : 4.12,
+  "num_avaliacoes" : 79809,
+  "num_edicoes" : 65,
+  "pontuacao" : 4.052
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 39,
+  "titulo" : "The Witching Hour (Lives of the Mayfair Witches  #1)",
+  "autores" : "Anne Rice",
+  "rating_medio" : 4.11,
+  "num_avaliacoes" : 87816,
+  "num_edicoes" : 42,
+  "pontuacao" : 4.049
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 40,
+  "titulo" : "The Killing Dance (Anita Blake  Vampire Hunter  #6)",
+  "autores" : "Laurell K. Hamilton",
+  "rating_medio" : 4.13,
+  "num_avaliacoes" : 59524,
+  "num_edicoes" : 3,
+  "pontuacao" : 4.045
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 41,
+  "titulo" : "The Lunatic Cafe (Anita Blake  Vampire Hunter #4)",
+  "autores" : "Laurell K. Hamilton",
+  "rating_medio" : 4.12,
+  "num_avaliacoes" : 64036,
+  "num_edicoes" : 18,
+  "pontuacao" : 4.042
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 42,
+  "titulo" : "The Black Cauldron (The Chronicles of Prydain  #2)",
+  "autores" : "Lloyd Alexander",
+  "rating_medio" : 4.13,
+  "num_avaliacoes" : 53962,
+  "num_edicoes" : 60,
+  "pontuacao" : 4.04
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 43,
+  "titulo" : "The Tombs of Atuan (Earthsea Cycle  #2)",
+  "autores" : "Ursula K. Le Guin/Margot Paronis",
+  "rating_medio" : 4.09,
+  "num_avaliacoes" : 73161,
+  "num_edicoes" : 67,
+  "pontuacao" : 4.03
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 44,
+  "titulo" : "A Dirty Job (Grim Reaper  #1)",
+  "autores" : "Christopher Moore",
+  "rating_medio" : 4.07,
+  "num_avaliacoes" : 90947,
+  "num_edicoes" : 2,
+  "pontuacao" : 4.025
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 45,
+  "titulo" : "Magic Bites (Kate Daniels  #1)",
+  "autores" : "Ilona Andrews",
+  "rating_medio" : 4.07,
+  "num_avaliacoes" : 86675,
+  "num_edicoes" : 2,
+  "pontuacao" : 4.024
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 46,
+  "titulo" : "The Once and Future King (The Once and Future King  #1-4)",
+  "autores" : "T.H. White",
+  "rating_medio" : 4.07,
+  "num_avaliacoes" : 85082,
+  "num_edicoes" : 81,
+  "pontuacao" : 4.023
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 47,
+  "titulo" : "The Tale of Despereaux",
+  "autores" : "Kate DiCamillo/Timothy Basil Ering",
+  "rating_medio" : 4.04,
+  "num_avaliacoes" : 142149,
+  "num_edicoes" : 52,
+  "pontuacao" : 4.015
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 48,
+  "titulo" : "A Crown of Swords (The Wheel of Time  #7)",
+  "autores" : "Robert Jordan",
+  "rating_medio" : 4.04,
+  "num_avaliacoes" : 106712,
+  "num_edicoes" : 35,
+  "pontuacao" : 4.009
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 49,
+  "titulo" : "Dead Witch Walking (The Hollows  #1)",
+  "autores" : "Kim Harrison",
+  "rating_medio" : 4.04,
+  "num_avaliacoes" : 99076,
+  "num_edicoes" : 12,
+  "pontuacao" : 4.008
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 50,
+  "titulo" : "Blue Moon (Anita Blake  Vampire Hunter  #8)",
+  "autores" : "Laurell K. Hamilton",
+  "rating_medio" : 4.05,
+  "num_avaliacoes" : 55670,
+  "num_edicoes" : 1,
+  "pontuacao" : 3.999
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 51,
+  "titulo" : "Smoke and Mirrors: Short Fiction and Illusions",
+  "autores" : "Neil Gaiman",
+  "rating_medio" : 4.04,
+  "num_avaliacoes" : 53464,
+  "num_edicoes" : 24,
+  "pontuacao" : 3.993
+}, {
+  "genero" : "Fantasia",
+  "posicao" : 52,
+  "titulo" : "Peter and the Starcatchers (Peter and the Starcatchers  #1)",
+  "autores" : "Dave Barry/Ridley Pearson/Greg Call",
+  "rating_medio" : 4.03,
+  "num_avaliacoes" : 66017,
+  "num_edicoes" : 20,
+  "pontuacao" : 3.993
+}, {
+  "genero" : "Ficção científica",
+  "posicao" : 1,
+  "titulo" : "The Ultimate Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1-5)",
+  "autores" : "Douglas Adams",
+  "rating_medio" : 4.38,
+  "num_avaliacoes" : 249558,
+  "num_edicoes" : 10,
+  "pontuacao" : 4.307
+}, {
+  "genero" : "Ficção científica",
+  "posicao" : 2,
+  "titulo" : "Ender's Shadow (The Shadow Series  #1)",
+  "autores" : "Orson Scott Card",
+  "rating_medio" : 4.31,
+  "num_avaliacoes" : 133114,
+  "num_edicoes" : 33,
+  "pontuacao" : 4.21
+}, {
+  "genero" : "Ficção científica",
+  "posicao" : 3,
+  "titulo" : "Fight Club",
+  "autores" : "Chuck Palahniuk",
+  "rating_medio" : 4.19,
+  "num_avaliacoes" : 388782,
+  "num_edicoes" : 40,
+  "pontuacao" : 4.162
+}, {
+  "genero" : "Ficção científica",
+  "posicao" : 4,
+  "titulo" : "Brave New World / Brave New World Revisited",
+  "autores" : "Aldous Huxley/Christopher Hitchens",
+  "rating_medio" : 4.16,
+  "num_avaliacoes" : 129179,
+  "num_edicoes" : 28,
+  "pontuacao" : 4.099
+}, {
+  "genero" : "Ficção científica",
+  "posicao" : 5,
+  "titulo" : "The Moon is a Harsh Mistress",
+  "autores" : "Robert A. Heinlein",
+  "rating_medio" : 4.17,
+  "num_avaliacoes" : 93782,
+  "num_edicoes" : 53,
+  "pontuacao" : 4.091
+}, {
+  "genero" : "Ficção científica",
+  "posicao" : 6,
+  "titulo" : "The Diamond Age: Or  A Young Lady's Illustrated Primer",
+  "autores" : "Neal Stephenson/Pedro Jorge Romero",
+  "rating_medio" : 4.19,
+  "num_avaliacoes" : 71042,
+  "num_edicoes" : 28,
+  "pontuacao" : 4.088
+}, {
+  "genero" : "Ficção científica",
+  "posicao" : 7,
+  "titulo" : "Speaker for the Dead (Ender's Saga  #2)",
+  "autores" : "Orson Scott Card",
+  "rating_medio" : 4.07,
+  "num_avaliacoes" : 190379,
+  "num_edicoes" : 39,
+  "pontuacao" : 4.044
+}, {
+  "genero" : "Ficção científica",
+  "posicao" : 8,
+  "titulo" : "Batman: Arkham Asylum - A Serious House on Serious Earth",
+  "autores" : "Grant Morrison/Dave McKean",
+  "rating_medio" : 4.1,
+  "num_avaliacoes" : 51984,
+  "num_edicoes" : 22,
+  "pontuacao" : 4.023
+}, {
+  "genero" : "Ficção científica",
+  "posicao" : 9,
+  "titulo" : "The Long Dark Tea-Time of the Soul (Dirk Gently  #2)",
+  "autores" : "Douglas Adams",
+  "rating_medio" : 4.06,
+  "num_avaliacoes" : 67803,
+  "num_edicoes" : 34,
+  "pontuacao" : 4.01
+}, {
+  "genero" : "Ficção científica",
+  "posicao" : 10,
+  "titulo" : "I Am Legend",
+  "autores" : "Richard Matheson",
+  "rating_medio" : 4.07,
+  "num_avaliacoes" : 55751,
+  "num_edicoes" : 55,
+  "pontuacao" : 4.01
+}, {
+  "genero" : "Ficção científica",
+  "posicao" : 11,
+  "titulo" : "Bitten (Otherworld  #1)",
+  "autores" : "Kelley Armstrong",
+  "rating_medio" : 4.05,
+  "num_avaliacoes" : 79710,
+  "num_edicoes" : 23,
+  "pontuacao" : 4.009
+}, {
+  "genero" : "Ficção científica",
+  "posicao" : 12,
+  "titulo" : "A Scanner Darkly",
+  "autores" : "Philip K. Dick",
+  "rating_medio" : 4.02,
+  "num_avaliacoes" : 70604,
+  "num_edicoes" : 28,
+  "pontuacao" : 3.988
+}, {
+  "genero" : "Histórico",
+  "posicao" : 1,
+  "titulo" : "A Breath of Snow and Ashes (Outlander  #6)",
+  "autores" : "Diana Gabaldon",
+  "rating_medio" : 4.44,
+  "num_avaliacoes" : 105950,
+  "num_edicoes" : 25,
+  "pontuacao" : 4.281
+}, {
+  "genero" : "Histórico",
+  "posicao" : 2,
+  "titulo" : "Band of Brothers: E Company  506th Regiment  101st Airborne from Normandy to Hitler's Eagle's Nest",
+  "autores" : "Stephen E. Ambrose",
+  "rating_medio" : 4.43,
+  "num_avaliacoes" : 82525,
+  "num_edicoes" : 26,
+  "pontuacao" : 4.246
+}, {
+  "genero" : "Histórico",
+  "posicao" : 3,
+  "titulo" : "Drums of Autumn (Outlander  #4)",
+  "autores" : "Diana Gabaldon",
+  "rating_medio" : 4.35,
+  "num_avaliacoes" : 141771,
+  "num_edicoes" : 32,
+  "pontuacao" : 4.244
+}, {
+  "genero" : "Histórico",
+  "posicao" : 4,
+  "titulo" : "A Fine Balance",
+  "autores" : "Rohinton Mistry",
+  "rating_medio" : 4.36,
+  "num_avaliacoes" : 112196,
+  "num_edicoes" : 45,
+  "pontuacao" : 4.231
+}, {
+  "genero" : "Histórico",
+  "posicao" : 5,
+  "titulo" : "Outlander (Outlander  #1)",
+  "autores" : "Diana Gabaldon",
+  "rating_medio" : 4.23,
+  "num_avaliacoes" : 673350,
+  "num_edicoes" : 50,
+  "pontuacao" : 4.21
+}, {
+  "genero" : "Histórico",
+  "posicao" : 6,
+  "titulo" : "Exodus",
+  "autores" : "Leon Uris",
+  "rating_medio" : 4.34,
+  "num_avaliacoes" : 85927,
+  "num_edicoes" : 29,
+  "pontuacao" : 4.194
+}, {
+  "genero" : "Histórico",
+  "posicao" : 7,
+  "titulo" : "Team of Rivals: The Political Genius of Abraham Lincoln",
+  "autores" : "Doris Kearns Goodwin",
+  "rating_medio" : 4.28,
+  "num_avaliacoes" : 133840,
+  "num_edicoes" : 14,
+  "pontuacao" : 4.188
+}, {
+  "genero" : "Histórico",
+  "posicao" : 8,
+  "titulo" : "The Power of One (The Power of One  #1)",
+  "autores" : "Bryce Courtenay",
+  "rating_medio" : 4.35,
+  "num_avaliacoes" : 69167,
+  "num_edicoes" : 18,
+  "pontuacao" : 4.179
+}, {
+  "genero" : "Histórico",
+  "posicao" : 9,
+  "titulo" : "The Fiery Cross (Outlander  #5)",
+  "autores" : "Diana Gabaldon/Janos Farkas",
+  "rating_medio" : 4.27,
+  "num_avaliacoes" : 128901,
+  "num_edicoes" : 21,
+  "pontuacao" : 4.179
+}, {
+  "genero" : "Histórico",
+  "posicao" : 10,
+  "titulo" : "Lamb: The Gospel According to Biff  Christ's Childhood Pal",
+  "autores" : "Christopher Moore",
+  "rating_medio" : 4.25,
+  "num_avaliacoes" : 135109,
+  "num_edicoes" : 6,
+  "pontuacao" : 4.167
+}, {
+  "genero" : "Histórico",
+  "posicao" : 11,
+  "titulo" : "The Red Tent",
+  "autores" : "Anita Diamant",
+  "rating_medio" : 4.17,
+  "num_avaliacoes" : 470858,
+  "num_edicoes" : 2,
+  "pontuacao" : 4.148
+}, {
+  "genero" : "Histórico",
+  "posicao" : 12,
+  "titulo" : "Cryptonomicon",
+  "autores" : "Neal Stephenson",
+  "rating_medio" : 4.25,
+  "num_avaliacoes" : 83184,
+  "num_edicoes" : 30,
+  "pontuacao" : 4.135
+}, {
+  "genero" : "Histórico",
+  "posicao" : 13,
+  "titulo" : "Mother Night",
+  "autores" : "Kurt Vonnegut Jr.",
+  "rating_medio" : 4.22,
+  "num_avaliacoes" : 64096,
+  "num_edicoes" : 60,
+  "pontuacao" : 4.099
+}, {
+  "genero" : "Histórico",
+  "posicao" : 14,
+  "titulo" : "Hawaii",
+  "autores" : "James A. Michener",
+  "rating_medio" : 4.2,
+  "num_avaliacoes" : 66298,
+  "num_edicoes" : 47,
+  "pontuacao" : 4.09
+}, {
+  "genero" : "Histórico",
+  "posicao" : 15,
+  "titulo" : "Little Town on the Prairie  (Little House  #7)",
+  "autores" : "Laura Ingalls Wilder/Garth Williams",
+  "rating_medio" : 4.19,
+  "num_avaliacoes" : 71853,
+  "num_edicoes" : 58,
+  "pontuacao" : 4.089
+}, {
+  "genero" : "Histórico",
+  "posicao" : 16,
+  "titulo" : "Water for Elephants",
+  "autores" : "Sara Gruen",
+  "rating_medio" : 4.09,
+  "num_avaliacoes" : 1260027,
+  "num_edicoes" : 36,
+  "pontuacao" : 4.084
+}, {
+  "genero" : "Histórico",
+  "posicao" : 17,
+  "titulo" : "Notes from Underground  White Nights  The Dream of a Ridiculous Man  and Selections from The House of the Dead",
+  "autores" : "Fyodor Dostoyevsky/Andrew R. MacAndrew/Ben Marcus",
+  "rating_medio" : 4.18,
+  "num_avaliacoes" : 71824,
+  "num_edicoes" : 10,
+  "pontuacao" : 4.083
+}, {
+  "genero" : "Histórico",
+  "posicao" : 18,
+  "titulo" : "In the Heart of the Sea: The Tragedy of the Whaleship Essex",
+  "autores" : "Nathaniel Philbrick",
+  "rating_medio" : 4.16,
+  "num_avaliacoes" : 72656,
+  "num_edicoes" : 38,
+  "pontuacao" : 4.072
+}, {
+  "genero" : "Histórico",
+  "posicao" : 19,
+  "titulo" : "What Is the What",
+  "autores" : "Dave Eggers",
+  "rating_medio" : 4.16,
+  "num_avaliacoes" : 65767,
+  "num_edicoes" : 26,
+  "pontuacao" : 4.066
+}, {
+  "genero" : "Histórico",
+  "posicao" : 20,
+  "titulo" : "A Room of One's Own",
+  "autores" : "Virginia Woolf",
+  "rating_medio" : 4.14,
+  "num_avaliacoes" : 80536,
+  "num_edicoes" : 303,
+  "pontuacao" : 4.065
+}, {
+  "genero" : "Histórico",
+  "posicao" : 21,
+  "titulo" : "Snow Flower and the Secret Fan",
+  "autores" : "Lisa See",
+  "rating_medio" : 4.07,
+  "num_avaliacoes" : 297533,
+  "num_edicoes" : 9,
+  "pontuacao" : 4.052
+}, {
+  "genero" : "Histórico",
+  "posicao" : 22,
+  "titulo" : "The Poisonwood Bible",
+  "autores" : "Barbara Kingsolver",
+  "rating_medio" : 4.06,
+  "num_avaliacoes" : 613758,
+  "num_edicoes" : 47,
+  "pontuacao" : 4.051
+}, {
+  "genero" : "Histórico",
+  "posicao" : 23,
+  "titulo" : "A People's History of the United States",
+  "autores" : "Howard Zinn",
+  "rating_medio" : 4.08,
+  "num_avaliacoes" : 167321,
+  "num_edicoes" : 50,
+  "pontuacao" : 4.049
+}, {
+  "genero" : "Histórico",
+  "posicao" : 24,
+  "titulo" : "The Secret Life of Bees",
+  "autores" : "Sue Monk Kidd",
+  "rating_medio" : 4.05,
+  "num_avaliacoes" : 1044725,
+  "num_edicoes" : 30,
+  "pontuacao" : 4.045
+}, {
+  "genero" : "Histórico",
+  "posicao" : 25,
+  "titulo" : "A Walk in the Woods: Rediscovering America on the Appalachian Trail",
+  "autores" : "Bill Bryson",
+  "rating_medio" : 4.06,
+  "num_avaliacoes" : 308840,
+  "num_edicoes" : 35,
+  "pontuacao" : 4.044
+}, {
+  "genero" : "Histórico",
+  "posicao" : 26,
+  "titulo" : "John Adams",
+  "autores" : "David McCullough",
+  "rating_medio" : 4.06,
+  "num_avaliacoes" : 282649,
+  "num_edicoes" : 13,
+  "pontuacao" : 4.042
+}, {
+  "genero" : "Histórico",
+  "posicao" : 27,
+  "titulo" : "1776",
+  "autores" : "David McCullough",
+  "rating_medio" : 4.07,
+  "num_avaliacoes" : 166916,
+  "num_edicoes" : 16,
+  "pontuacao" : 4.041
+}, {
+  "genero" : "Histórico",
+  "posicao" : 28,
+  "titulo" : "The Clan of the Cave Bear (Earth's Children  #1)",
+  "autores" : "Jean M. Auel",
+  "rating_medio" : 4.05,
+  "num_avaliacoes" : 184418,
+  "num_edicoes" : 89,
+  "pontuacao" : 4.027
+}, {
+  "genero" : "Histórico",
+  "posicao" : 29,
+  "titulo" : "Birdsong",
+  "autores" : "Sebastian Faulks",
+  "rating_medio" : 4.09,
+  "num_avaliacoes" : 57513,
+  "num_edicoes" : 46,
+  "pontuacao" : 4.022
+}, {
+  "genero" : "Histórico",
+  "posicao" : 30,
+  "titulo" : "In a Sunburned Country",
+  "autores" : "Bill Bryson",
+  "rating_medio" : 4.07,
+  "num_avaliacoes" : 72451,
+  "num_edicoes" : 34,
+  "pontuacao" : 4.018
+}, {
+  "genero" : "Histórico",
+  "posicao" : 31,
+  "titulo" : "Pope Joan",
+  "autores" : "Donna Woolfolk Cross",
+  "rating_medio" : 4.08,
+  "num_avaliacoes" : 56471,
+  "num_edicoes" : 1,
+  "pontuacao" : 4.016
+}, {
+  "genero" : "Histórico",
+  "posicao" : 32,
+  "titulo" : "Cyrano de Bergerac",
+  "autores" : "Edmond Rostand/Eteel Lawson/Lowell Bair",
+  "rating_medio" : 4.06,
+  "num_avaliacoes" : 62116,
+  "num_edicoes" : 309,
+  "pontuacao" : 4.008
+}, {
+  "genero" : "Histórico",
+  "posicao" : 33,
+  "titulo" : "World War Z: An Oral History of the Zombie War",
+  "autores" : "Max Brooks",
+  "rating_medio" : 4.01,
+  "num_avaliacoes" : 370331,
+  "num_edicoes" : 46,
+  "pontuacao" : 4.002
+}, {
+  "genero" : "Histórico",
+  "posicao" : 34,
+  "titulo" : "Year of Wonders",
+  "autores" : "Geraldine Brooks",
+  "rating_medio" : 4.01,
+  "num_avaliacoes" : 120736,
+  "num_edicoes" : 21,
+  "pontuacao" : 3.99
+}, {
+  "genero" : "Histórico",
+  "posicao" : 35,
+  "titulo" : "The Hunchback of Notre-Dame",
+  "autores" : "Victor Hugo/Walter J. Cobb",
+  "rating_medio" : 4.0,
+  "num_avaliacoes" : 140529,
+  "num_edicoes" : 265,
+  "pontuacao" : 3.985
+}, {
+  "genero" : "Histórico",
+  "posicao" : 36,
+  "titulo" : "Bleak House",
+  "autores" : "Charles Dickens/Nicola Bradbury/Hablot Knight Browne",
+  "rating_medio" : 4.01,
+  "num_avaliacoes" : 80104,
+  "num_edicoes" : 418,
+  "pontuacao" : 3.984
+}, {
+  "genero" : "Histórico",
+  "posicao" : 37,
+  "titulo" : "1491: New Revelations of the Americas Before Columbus",
+  "autores" : "Charles C. Mann",
+  "rating_medio" : 4.02,
+  "num_avaliacoes" : 56290,
+  "num_edicoes" : 17,
+  "pontuacao" : 3.984
+}, {
+  "genero" : "Histórico",
+  "posicao" : 38,
+  "titulo" : "I Capture the Castle",
+  "autores" : "Dodie Smith",
+  "rating_medio" : 4.0,
+  "num_avaliacoes" : 65013,
+  "num_edicoes" : 78,
+  "pontuacao" : 3.975
+}, {
+  "genero" : "Histórico",
+  "posicao" : 39,
+  "titulo" : "The Valley of Horses (Earth's Children  #2)",
+  "autores" : "Jean M. Auel",
+  "rating_medio" : 4.0,
+  "num_avaliacoes" : 59723,
+  "num_edicoes" : 88,
+  "pontuacao" : 3.974
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 1,
+  "titulo" : "A Light in the Attic",
+  "autores" : "Shel Silverstein",
+  "rating_medio" : 4.34,
+  "num_avaliacoes" : 349247,
+  "num_edicoes" : 27,
+  "pontuacao" : 4.29
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 2,
+  "titulo" : "The Monster at the End of this Book",
+  "autores" : "Jon Stone/Michael J. Smollin",
+  "rating_medio" : 4.44,
+  "num_avaliacoes" : 114297,
+  "num_edicoes" : 15,
+  "pontuacao" : 4.289
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 3,
+  "titulo" : "The Complete Stories and Poems",
+  "autores" : "Edgar Allan Poe",
+  "rating_medio" : 4.38,
+  "num_avaliacoes" : 183869,
+  "num_edicoes" : 6,
+  "pontuacao" : 4.287
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 4,
+  "titulo" : "The Lorax",
+  "autores" : "Dr. Seuss",
+  "rating_medio" : 4.35,
+  "num_avaliacoes" : 260054,
+  "num_edicoes" : 23,
+  "pontuacao" : 4.284
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 5,
+  "titulo" : "Matilda",
+  "autores" : "Roald Dahl/Quentin Blake",
+  "rating_medio" : 4.31,
+  "num_avaliacoes" : 541914,
+  "num_edicoes" : 184,
+  "pontuacao" : 4.279
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 6,
+  "titulo" : "Goodnight Moon",
+  "autores" : "Margaret Wise Brown/Clement Hurd",
+  "rating_medio" : 4.28,
+  "num_avaliacoes" : 276426,
+  "num_edicoes" : 143,
+  "pontuacao" : 4.228
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 7,
+  "titulo" : "The Kissing Hand",
+  "autores" : "Audrey Penn/Ruth E. Harper/Nancy M. Leak",
+  "rating_medio" : 4.43,
+  "num_avaliacoes" : 57737,
+  "num_edicoes" : 7,
+  "pontuacao" : 4.204
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 8,
+  "titulo" : "The Miraculous Journey of Edward Tulane",
+  "autores" : "Kate DiCamillo/Bagram Ibatoulline",
+  "rating_medio" : 4.37,
+  "num_avaliacoes" : 66426,
+  "num_edicoes" : 28,
+  "pontuacao" : 4.187
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 9,
+  "titulo" : "Essential Tales and Poems",
+  "autores" : "Edgar Allan Poe/Benjamin F. Fisher",
+  "rating_medio" : 4.36,
+  "num_avaliacoes" : 66382,
+  "num_edicoes" : 1,
+  "pontuacao" : 4.181
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 10,
+  "titulo" : "The Prince of Tides",
+  "autores" : "Pat Conroy",
+  "rating_medio" : 4.24,
+  "num_avaliacoes" : 178717,
+  "num_edicoes" : 15,
+  "pontuacao" : 4.175
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 11,
+  "titulo" : "A Little Princess",
+  "autores" : "Frances Hodgson Burnett/Nancy Bond",
+  "rating_medio" : 4.2,
+  "num_avaliacoes" : 238192,
+  "num_edicoes" : 47,
+  "pontuacao" : 4.155
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 12,
+  "titulo" : "Alanna: The First Adventure (Song of the Lioness  #1)",
+  "autores" : "Tamora Pierce",
+  "rating_medio" : 4.26,
+  "num_avaliacoes" : 101059,
+  "num_edicoes" : 38,
+  "pontuacao" : 4.155
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 13,
+  "titulo" : "Little House in the Big Woods (Little House  #1)",
+  "autores" : "Laura Ingalls Wilder/Garth Williams",
+  "rating_medio" : 4.18,
+  "num_avaliacoes" : 201840,
+  "num_edicoes" : 120,
+  "pontuacao" : 4.133
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 14,
+  "titulo" : "The Tale of Peter Rabbit",
+  "autores" : "Beatrix Potter",
+  "rating_medio" : 4.18,
+  "num_avaliacoes" : 188842,
+  "num_edicoes" : 159,
+  "pontuacao" : 4.13
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 15,
+  "titulo" : "The Giver (The Giver  #1)",
+  "autores" : "Lois Lowry",
+  "rating_medio" : 4.13,
+  "num_avaliacoes" : 1585589,
+  "num_edicoes" : 106,
+  "pontuacao" : 4.124
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 16,
+  "titulo" : "The Secret Garden",
+  "autores" : "Frances Hodgson Burnett",
+  "rating_medio" : 4.13,
+  "num_avaliacoes" : 764134,
+  "num_edicoes" : 1598,
+  "pontuacao" : 4.119
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 17,
+  "titulo" : "Cloudy With a Chance of Meatballs (Cloudy with a Chance of Meatballs  #1)",
+  "autores" : "Judi Barrett/Ron Barrett",
+  "rating_medio" : 4.16,
+  "num_avaliacoes" : 124141,
+  "num_edicoes" : 3,
+  "pontuacao" : 4.098
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 18,
+  "titulo" : "Horton Hears a Who!",
+  "autores" : "Dr. Seuss",
+  "rating_medio" : 4.18,
+  "num_avaliacoes" : 89920,
+  "num_edicoes" : 18,
+  "pontuacao" : 4.095
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 19,
+  "titulo" : "School's Out—Forever (Maximum Ride  #2)",
+  "autores" : "James Patterson",
+  "rating_medio" : 4.15,
+  "num_avaliacoes" : 103221,
+  "num_edicoes" : 29,
+  "pontuacao" : 4.082
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 20,
+  "titulo" : "Sideways Stories from Wayside School (Wayside School #1)",
+  "autores" : "Louis Sachar/Adam McCauley",
+  "rating_medio" : 4.15,
+  "num_avaliacoes" : 81090,
+  "num_edicoes" : 31,
+  "pontuacao" : 4.071
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 21,
+  "titulo" : "Saving the World and Other Extreme Sports (Maximum Ride  #3)",
+  "autores" : "James Patterson",
+  "rating_medio" : 4.15,
+  "num_avaliacoes" : 80643,
+  "num_edicoes" : 34,
+  "pontuacao" : 4.071
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 22,
+  "titulo" : "The Rescue",
+  "autores" : "Nicholas Sparks",
+  "rating_medio" : 4.11,
+  "num_avaliacoes" : 154933,
+  "num_edicoes" : 13,
+  "pontuacao" : 4.069
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 23,
+  "titulo" : "The Spirit Catches You and You Fall Down: A Hmong Child  Her American Doctors  and the Collision of Two Cultures",
+  "autores" : "Anne Fadiman",
+  "rating_medio" : 4.17,
+  "num_avaliacoes" : 60656,
+  "num_edicoes" : 19,
+  "pontuacao" : 4.067
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 24,
+  "titulo" : "The Long Winter (Little House  #6)",
+  "autores" : "Laura Ingalls Wilder/Garth Williams",
+  "rating_medio" : 4.14,
+  "num_avaliacoes" : 67427,
+  "num_edicoes" : 62,
+  "pontuacao" : 4.056
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 25,
+  "titulo" : "Tales of a Fourth Grade Nothing (Fudge  #1)",
+  "autores" : "Judy Blume",
+  "rating_medio" : 4.1,
+  "num_avaliacoes" : 122085,
+  "num_edicoes" : 56,
+  "pontuacao" : 4.054
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 26,
+  "titulo" : "The Angel Experiment (Maximum Ride  #1)",
+  "autores" : "James Patterson",
+  "rating_medio" : 4.08,
+  "num_avaliacoes" : 187892,
+  "num_edicoes" : 43,
+  "pontuacao" : 4.051
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 27,
+  "titulo" : "Illusions: The Adventures of a Reluctant Messiah",
+  "autores" : "Richard Bach",
+  "rating_medio" : 4.15,
+  "num_avaliacoes" : 50816,
+  "num_edicoes" : 34,
+  "pontuacao" : 4.047
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 28,
+  "titulo" : "I Am the Messenger",
+  "autores" : "Markus Zusak/Emmanuel Pailler",
+  "rating_medio" : 4.07,
+  "num_avaliacoes" : 110898,
+  "num_edicoes" : 32,
+  "pontuacao" : 4.031
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 29,
+  "titulo" : "The Trumpet of the Swan",
+  "autores" : "E.B. White/Fred Marcellino",
+  "rating_medio" : 4.08,
+  "num_avaliacoes" : 63915,
+  "num_edicoes" : 63,
+  "pontuacao" : 4.02
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 30,
+  "titulo" : "Fantastic Mr. Fox",
+  "autores" : "Roald Dahl/Quentin Blake",
+  "rating_medio" : 4.05,
+  "num_avaliacoes" : 83723,
+  "num_edicoes" : 161,
+  "pontuacao" : 4.01
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 31,
+  "titulo" : "This Lullaby",
+  "autores" : "Sarah Dessen",
+  "rating_medio" : 4.03,
+  "num_avaliacoes" : 163599,
+  "num_edicoes" : 6,
+  "pontuacao" : 4.01
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 32,
+  "titulo" : "My Side of the Mountain (Mountain  #1)",
+  "autores" : "Jean Craighead George",
+  "rating_medio" : 4.06,
+  "num_avaliacoes" : 55045,
+  "num_edicoes" : 45,
+  "pontuacao" : 4.004
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 33,
+  "titulo" : "Beauty: A Retelling of the Story of Beauty and the Beast",
+  "autores" : "Robin McKinley",
+  "rating_medio" : 4.05,
+  "num_avaliacoes" : 63876,
+  "num_edicoes" : 31,
+  "pontuacao" : 4.003
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 34,
+  "titulo" : "James and the Giant Peach",
+  "autores" : "Roald Dahl/Quentin Blake",
+  "rating_medio" : 4.01,
+  "num_avaliacoes" : 328542,
+  "num_edicoes" : 167,
+  "pontuacao" : 4.001
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 35,
+  "titulo" : "The Westing Game",
+  "autores" : "Ellen Raskin",
+  "rating_medio" : 4.02,
+  "num_avaliacoes" : 142121,
+  "num_edicoes" : 16,
+  "pontuacao" : 4.0
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 36,
+  "titulo" : "The Jungle Books",
+  "autores" : "Rudyard Kipling/Alev Lytle Croutier",
+  "rating_medio" : 4.02,
+  "num_avaliacoes" : 78036,
+  "num_edicoes" : 71,
+  "pontuacao" : 3.99
+}, {
+  "genero" : "Juvenil",
+  "posicao" : 37,
+  "titulo" : "The Cricket in Times Square",
+  "autores" : "George Selden/Garth Williams",
+  "rating_medio" : 4.02,
+  "num_avaliacoes" : 55747,
+  "num_edicoes" : 77,
+  "pontuacao" : 3.984
+}, {
+  "genero" : "Não-ficção",
+  "posicao" : 1,
+  "titulo" : "Man's Search for Meaning",
+  "autores" : "Viktor E. Frankl/Harold S. Kushner/William J. Winslade/Isle Lasch",
+  "rating_medio" : 4.36,
+  "num_avaliacoes" : 282127,
+  "num_edicoes" : 111,
+  "pontuacao" : 4.297
+}, {
+  "genero" : "Não-ficção",
+  "posicao" : 2,
+  "titulo" : "Moneyball: The Art of Winning an Unfair Game",
+  "autores" : "Michael   Lewis",
+  "rating_medio" : 4.26,
+  "num_avaliacoes" : 85094,
+  "num_edicoes" : 16,
+  "pontuacao" : 4.143
+}, {
+  "genero" : "Não-ficção",
+  "posicao" : 3,
+  "titulo" : "Meditations",
+  "autores" : "Marcus Aurelius/Martin Hammond/Albert Wittstock/Diskin Clay",
+  "rating_medio" : 4.23,
+  "num_avaliacoes" : 76332,
+  "num_edicoes" : 643,
+  "pontuacao" : 4.116
+}, {
+  "genero" : "Não-ficção",
+  "posicao" : 4,
+  "titulo" : "Nine Stories",
+  "autores" : "J.D. Salinger",
+  "rating_medio" : 4.19,
+  "num_avaliacoes" : 112779,
+  "num_edicoes" : 82,
+  "pontuacao" : 4.114
+}, {
+  "genero" : "Não-ficção",
+  "posicao" : 5,
+  "titulo" : "Kafka on the Shore",
+  "autores" : "Haruki Murakami/Philip Gabriel",
+  "rating_medio" : 4.14,
+  "num_avaliacoes" : 225397,
+  "num_edicoes" : 61,
+  "pontuacao" : 4.104
+}, {
+  "genero" : "Não-ficção",
+  "posicao" : 6,
+  "titulo" : "Interpreter of Maladies",
+  "autores" : "Jhumpa Lahiri",
+  "rating_medio" : 4.15,
+  "num_avaliacoes" : 131876,
+  "num_edicoes" : 29,
+  "pontuacao" : 4.093
+}, {
+  "genero" : "Não-ficção",
+  "posicao" : 7,
+  "titulo" : "Influence: The Psychology of Persuasion",
+  "autores" : "Robert B. Cialdini",
+  "rating_medio" : 4.19,
+  "num_avaliacoes" : 76314,
+  "num_edicoes" : 28,
+  "pontuacao" : 4.092
+}, {
+  "genero" : "Não-ficção",
+  "posicao" : 8,
+  "titulo" : "The Power of Now: A Guide to Spiritual Enlightenment",
+  "autores" : "Eckhart Tolle",
+  "rating_medio" : 4.13,
+  "num_avaliacoes" : 159883,
+  "num_edicoes" : 45,
+  "pontuacao" : 4.085
+}, {
+  "genero" : "Não-ficção",
+  "posicao" : 9,
+  "titulo" : "Who's Afraid of Virginia Woolf?",
+  "autores" : "Edward Albee",
+  "rating_medio" : 4.08,
+  "num_avaliacoes" : 53955,
+  "num_edicoes" : 51,
+  "pontuacao" : 4.014
+}, {
+  "genero" : "Não-ficção",
+  "posicao" : 10,
+  "titulo" : "The Five Dysfunctions of a Team: A Leadership Fable",
+  "autores" : "Patrick Lencioni",
+  "rating_medio" : 4.04,
+  "num_avaliacoes" : 65444,
+  "num_edicoes" : 18,
+  "pontuacao" : 3.998
+}, {
+  "genero" : "Não-ficção",
+  "posicao" : 11,
+  "titulo" : "The Fall",
+  "autores" : "Albert Camus/Justin O'Brien",
+  "rating_medio" : 4.04,
+  "num_avaliacoes" : 53697,
+  "num_edicoes" : 145,
+  "pontuacao" : 3.993
+}, {
+  "genero" : "Não-ficção",
+  "posicao" : 12,
+  "titulo" : "The Millionaire Next Door: The Surprising Secrets of America's Wealthy",
+  "autores" : "Thomas J. Stanley/William D. Danko",
+  "rating_medio" : 4.03,
+  "num_avaliacoes" : 61760,
+  "num_edicoes" : 21,
+  "pontuacao" : 3.991
+}, {
+  "genero" : "Não-ficção",
+  "posicao" : 13,
+  "titulo" : "Emotional Intelligence: Why It Can Matter More Than IQ",
+  "autores" : "Daniel Goleman",
+  "rating_medio" : 4.01,
+  "num_avaliacoes" : 63501,
+  "num_edicoes" : 40,
+  "pontuacao" : 3.981
+}, {
+  "genero" : "Outro",
+  "posicao" : 1,
+  "titulo" : "Different Seasons",
+  "autores" : "Stephen King",
+  "rating_medio" : 4.35,
+  "num_avaliacoes" : 127648,
+  "num_edicoes" : 18,
+  "pontuacao" : 4.235
+}, {
+  "genero" : "Outro",
+  "posicao" : 2,
+  "titulo" : "A Tree Grows in Brooklyn",
+  "autores" : "Betty  Smith",
+  "rating_medio" : 4.26,
+  "num_avaliacoes" : 345283,
+  "num_edicoes" : 87,
+  "pontuacao" : 4.22
+}, {
+  "genero" : "Outro",
+  "posicao" : 3,
+  "titulo" : "The Cat in the Hat and Other Dr. Seuss Favorites",
+  "autores" : "Dr. Seuss/Various",
+  "rating_medio" : 4.42,
+  "num_avaliacoes" : 50844,
+  "num_edicoes" : 3,
+  "pontuacao" : 4.184
+}, {
+  "genero" : "Outro",
+  "posicao" : 4,
+  "titulo" : "The Prophet",
+  "autores" : "Kahlil Gibran/جبران خليل جبران/Jihad El",
+  "rating_medio" : 4.23,
+  "num_avaliacoes" : 184293,
+  "num_edicoes" : 570,
+  "pontuacao" : 4.169
+}, {
+  "genero" : "Outro",
+  "posicao" : 5,
+  "titulo" : "The Great Divorce",
+  "autores" : "C.S. Lewis",
+  "rating_medio" : 4.28,
+  "num_avaliacoes" : 87527,
+  "num_edicoes" : 34,
+  "pontuacao" : 4.158
+}, {
+  "genero" : "Outro",
+  "posicao" : 6,
+  "titulo" : "The Screwtape Letters",
+  "autores" : "C.S. Lewis",
+  "rating_medio" : 4.22,
+  "num_avaliacoes" : 116834,
+  "num_edicoes" : 32,
+  "pontuacao" : 4.137
+}, {
+  "genero" : "Outro",
+  "posicao" : 7,
+  "titulo" : "Scott Pilgrim  Volume 1: Scott Pilgrim's Precious Little Life",
+  "autores" : "Bryan Lee O'Malley",
+  "rating_medio" : 4.17,
+  "num_avaliacoes" : 155863,
+  "num_edicoes" : 17,
+  "pontuacao" : 4.115
+}, {
+  "genero" : "Outro",
+  "posicao" : 8,
+  "titulo" : "Jitterbug Perfume",
+  "autores" : "Tom Robbins",
+  "rating_medio" : 4.25,
+  "num_avaliacoes" : 54516,
+  "num_edicoes" : 13,
+  "pontuacao" : 4.103
+}, {
+  "genero" : "Outro",
+  "posicao" : 9,
+  "titulo" : "Anne Rice's The Vampire Lestat: A Graphic Novel",
+  "autores" : "Faye Perozich/Anne Rice/John Bolton/Daerick Gröss",
+  "rating_medio" : 4.2,
+  "num_avaliacoes" : 70039,
+  "num_edicoes" : 1,
+  "pontuacao" : 4.093
+}, {
+  "genero" : "Outro",
+  "posicao" : 10,
+  "titulo" : "Moloka'i (Moloka'i #1)",
+  "autores" : "Alan Brennert",
+  "rating_medio" : 4.17,
+  "num_avaliacoes" : 91395,
+  "num_edicoes" : 6,
+  "pontuacao" : 4.09
+}, {
+  "genero" : "Outro",
+  "posicao" : 11,
+  "titulo" : "The Art of Happiness",
+  "autores" : "Dalai Lama XIV/Howard C. Cutler",
+  "rating_medio" : 4.16,
+  "num_avaliacoes" : 80161,
+  "num_edicoes" : 31,
+  "pontuacao" : 4.077
+}, {
+  "genero" : "Outro",
+  "posicao" : 12,
+  "titulo" : "The Elements of Style",
+  "autores" : "William Strunk Jr./E.B. White",
+  "rating_medio" : 4.19,
+  "num_avaliacoes" : 53669,
+  "num_edicoes" : 288,
+  "pontuacao" : 4.071
+}, {
+  "genero" : "Outro",
+  "posicao" : 13,
+  "titulo" : "Howl and Other Poems",
+  "autores" : "Allen Ginsberg/William Carlos Williams",
+  "rating_medio" : 4.13,
+  "num_avaliacoes" : 85143,
+  "num_edicoes" : 9,
+  "pontuacao" : 4.061
+}, {
+  "genero" : "Outro",
+  "posicao" : 14,
+  "titulo" : "Ham on Rye",
+  "autores" : "Charles Bukowski",
+  "rating_medio" : 4.14,
+  "num_avaliacoes" : 65829,
+  "num_edicoes" : 11,
+  "pontuacao" : 4.055
+}, {
+  "genero" : "Outro",
+  "posicao" : 15,
+  "titulo" : "The Hot Zone: The Terrifying True Story of the Origins of the Ebola Virus",
+  "autores" : "Richard Preston",
+  "rating_medio" : 4.12,
+  "num_avaliacoes" : 85408,
+  "num_edicoes" : 24,
+  "pontuacao" : 4.055
+}, {
+  "genero" : "Outro",
+  "posicao" : 16,
+  "titulo" : "How to Stop Worrying and Start Living",
+  "autores" : "Dale Carnegie",
+  "rating_medio" : 4.12,
+  "num_avaliacoes" : 61639,
+  "num_edicoes" : 52,
+  "pontuacao" : 4.041
+}, {
+  "genero" : "Outro",
+  "posicao" : 17,
+  "titulo" : "Burnt Offerings (Anita Blake  Vampire Hunter  #7)",
+  "autores" : "Laurell K. Hamilton",
+  "rating_medio" : 4.08,
+  "num_avaliacoes" : 58849,
+  "num_edicoes" : 1,
+  "pontuacao" : 4.017
+}, {
+  "genero" : "Outro",
+  "posicao" : 18,
+  "titulo" : "Aesop's Fables",
+  "autores" : "Aesop/Laura Harris/Laura Gibbs",
+  "rating_medio" : 4.05,
+  "num_avaliacoes" : 97136,
+  "num_edicoes" : 1,
+  "pontuacao" : 4.014
+}, {
+  "genero" : "Outro",
+  "posicao" : 19,
+  "titulo" : "Song of Solomon",
+  "autores" : "Toni Morrison",
+  "rating_medio" : 4.06,
+  "num_avaliacoes" : 73894,
+  "num_edicoes" : 63,
+  "pontuacao" : 4.013
+}, {
+  "genero" : "Outro",
+  "posicao" : 20,
+  "titulo" : "Rosencrantz and Guildenstern Are Dead",
+  "autores" : "Tom Stoppard",
+  "rating_medio" : 4.06,
+  "num_avaliacoes" : 73863,
+  "num_edicoes" : 55,
+  "pontuacao" : 4.013
+}, {
+  "genero" : "Outro",
+  "posicao" : 21,
+  "titulo" : "Cannery Row",
+  "autores" : "John Steinbeck",
+  "rating_medio" : 4.04,
+  "num_avaliacoes" : 96408,
+  "num_edicoes" : 96,
+  "pontuacao" : 4.007
+}, {
+  "genero" : "Outro",
+  "posicao" : 22,
+  "titulo" : "The Iliad/The Odyssey",
+  "autores" : "Homer/Robert Fagles/Bernard Knox",
+  "rating_medio" : 4.04,
+  "num_avaliacoes" : 54939,
+  "num_edicoes" : 1,
+  "pontuacao" : 3.994
+}, {
+  "genero" : "Outro",
+  "posicao" : 23,
+  "titulo" : "The Kitchen God's Wife",
+  "autores" : "Amy Tan",
+  "rating_medio" : 4.01,
+  "num_avaliacoes" : 66503,
+  "num_edicoes" : 54,
+  "pontuacao" : 3.981
+}, {
+  "genero" : "Outro",
+  "posicao" : 24,
+  "titulo" : "Prodigal Summer",
+  "autores" : "Barbara Kingsolver",
+  "rating_medio" : 4.0,
+  "num_avaliacoes" : 88241,
+  "num_edicoes" : 23,
+  "pontuacao" : 3.979
+}, {
+  "genero" : "Outro",
+  "posicao" : 25,
+  "titulo" : "The War of Art: Break Through the Blocks & Win Your Inner Creative Battles",
+  "autores" : "Steven Pressfield/Robert McKee",
+  "rating_medio" : 4.0,
+  "num_avaliacoes" : 53653,
+  "num_edicoes" : 2,
+  "pontuacao" : 3.973
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 1,
+  "titulo" : "The Bone Collector (Lincoln Rhyme  #1)",
+  "autores" : "Jeffery Deaver",
+  "rating_medio" : 4.19,
+  "num_avaliacoes" : 140014,
+  "num_edicoes" : 38,
+  "pontuacao" : 4.125
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 2,
+  "titulo" : "This Present Darkness (Darkness  #1)",
+  "autores" : "Frank E. Peretti",
+  "rating_medio" : 4.22,
+  "num_avaliacoes" : 86548,
+  "num_edicoes" : 26,
+  "pontuacao" : 4.119
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 3,
+  "titulo" : "Hot Six (Stephanie Plum  #6)",
+  "autores" : "Janet Evanovich",
+  "rating_medio" : 4.19,
+  "num_avaliacoes" : 108961,
+  "num_edicoes" : 18,
+  "pontuacao" : 4.112
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 4,
+  "titulo" : "Four to Score (Stephanie Plum  #4)",
+  "autores" : "Janet Evanovich",
+  "rating_medio" : 4.17,
+  "num_avaliacoes" : 117541,
+  "num_edicoes" : 19,
+  "pontuacao" : 4.102
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 5,
+  "titulo" : "The Guardian",
+  "autores" : "Nicholas Sparks",
+  "rating_medio" : 4.15,
+  "num_avaliacoes" : 148042,
+  "num_edicoes" : 9,
+  "pontuacao" : 4.098
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 6,
+  "titulo" : "Patriot Games (Jack Ryan  #1)",
+  "autores" : "Tom Clancy",
+  "rating_medio" : 4.14,
+  "num_avaliacoes" : 170797,
+  "num_edicoes" : 17,
+  "pontuacao" : 4.095
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 7,
+  "titulo" : "Hard Eight (Stephanie Plum  #8)",
+  "autores" : "Janet Evanovich/Lorelei King",
+  "rating_medio" : 4.17,
+  "num_avaliacoes" : 101730,
+  "num_edicoes" : 23,
+  "pontuacao" : 4.095
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 8,
+  "titulo" : "Nineteen Minutes",
+  "autores" : "Jodi Picoult",
+  "rating_medio" : 4.12,
+  "num_avaliacoes" : 270574,
+  "num_edicoes" : 33,
+  "pontuacao" : 4.092
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 9,
+  "titulo" : "To the Nines (Stephanie Plum  #9)",
+  "autores" : "Janet Evanovich",
+  "rating_medio" : 4.17,
+  "num_avaliacoes" : 94990,
+  "num_edicoes" : 19,
+  "pontuacao" : 4.092
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 10,
+  "titulo" : "Three to Get Deadly (Stephanie Plum  #3)",
+  "autores" : "Janet Evanovich",
+  "rating_medio" : 4.15,
+  "num_avaliacoes" : 125114,
+  "num_edicoes" : 19,
+  "pontuacao" : 4.091
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 11,
+  "titulo" : "Along Came a Spider (Alex Cross  #1)",
+  "autores" : "James Patterson",
+  "rating_medio" : 4.11,
+  "num_avaliacoes" : 369267,
+  "num_edicoes" : 65,
+  "pontuacao" : 4.09
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 12,
+  "titulo" : "Seven Up (Stephanie Plum  #7)",
+  "autores" : "Janet Evanovich",
+  "rating_medio" : 4.16,
+  "num_avaliacoes" : 103618,
+  "num_edicoes" : 35,
+  "pontuacao" : 4.089
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 13,
+  "titulo" : "The Poet (Jack McEvoy  #1; Harry Bosch Universe  #5)",
+  "autores" : "Michael Connelly",
+  "rating_medio" : 4.2,
+  "num_avaliacoes" : 64309,
+  "num_edicoes" : 15,
+  "pontuacao" : 4.088
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 14,
+  "titulo" : "Eleven on Top (Stephanie Plum  #11)",
+  "autores" : "Janet Evanovich",
+  "rating_medio" : 4.16,
+  "num_avaliacoes" : 91695,
+  "num_edicoes" : 25,
+  "pontuacao" : 4.083
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 15,
+  "titulo" : "No Country for Old Men",
+  "autores" : "Cormac McCarthy",
+  "rating_medio" : 4.14,
+  "num_avaliacoes" : 120421,
+  "num_edicoes" : 45,
+  "pontuacao" : 4.082
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 16,
+  "titulo" : "Circus of the Damned (Anita Blake  Vampire Hunter  #3)",
+  "autores" : "Laurell K. Hamilton",
+  "rating_medio" : 4.17,
+  "num_avaliacoes" : 78062,
+  "num_edicoes" : 5,
+  "pontuacao" : 4.081
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 17,
+  "titulo" : "The Secret History",
+  "autores" : "Donna Tartt",
+  "rating_medio" : 4.1,
+  "num_avaliacoes" : 234929,
+  "num_edicoes" : 54,
+  "pontuacao" : 4.072
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 18,
+  "titulo" : "Without Remorse (John Clark  #1; Jack Ryan Universe Publication Order #6)",
+  "autores" : "Tom Clancy",
+  "rating_medio" : 4.18,
+  "num_avaliacoes" : 53936,
+  "num_edicoes" : 35,
+  "pontuacao" : 4.066
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 19,
+  "titulo" : "Without Fail (Jack Reacher  #6)",
+  "autores" : "Lee Child/Dick Hill",
+  "rating_medio" : 4.15,
+  "num_avaliacoes" : 64395,
+  "num_edicoes" : 42,
+  "pontuacao" : 4.06
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 20,
+  "titulo" : "1st to Die (Women's Murder Club  #1)",
+  "autores" : "James Patterson",
+  "rating_medio" : 4.08,
+  "num_avaliacoes" : 269826,
+  "num_edicoes" : 67,
+  "pontuacao" : 4.059
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 21,
+  "titulo" : "The Black Echo (Harry Bosch  #1; Harry Bosch Universe  #1)",
+  "autores" : "Michael Connelly",
+  "rating_medio" : 4.1,
+  "num_avaliacoes" : 125864,
+  "num_edicoes" : 13,
+  "pontuacao" : 4.055
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 22,
+  "titulo" : "The Laughing Corpse (Anita Blake  Vampire Hunter  #2)",
+  "autores" : "Laurell K. Hamilton",
+  "rating_medio" : 4.12,
+  "num_avaliacoes" : 67686,
+  "num_edicoes" : 7,
+  "pontuacao" : 4.045
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 23,
+  "titulo" : "Rules of Prey (Lucas Davenport  #1)",
+  "autores" : "John Sandford",
+  "rating_medio" : 4.11,
+  "num_avaliacoes" : 62767,
+  "num_edicoes" : 15,
+  "pontuacao" : 4.036
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 24,
+  "titulo" : "The Bachman Books",
+  "autores" : "Richard Bachman/Stephen King",
+  "rating_medio" : 4.11,
+  "num_avaliacoes" : 62529,
+  "num_edicoes" : 19,
+  "pontuacao" : 4.036
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 25,
+  "titulo" : "Bloody Bones (Anita Blake  Vampire Hunter #5)",
+  "autores" : "Laurell K. Hamilton",
+  "rating_medio" : 4.11,
+  "num_avaliacoes" : 60937,
+  "num_edicoes" : 2,
+  "pontuacao" : 4.035
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 26,
+  "titulo" : "The Alienist (Dr. Laszlo Kreizler  #1)",
+  "autores" : "Caleb Carr",
+  "rating_medio" : 4.06,
+  "num_avaliacoes" : 126669,
+  "num_edicoes" : 46,
+  "pontuacao" : 4.027
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 27,
+  "titulo" : "Blindsighted (Grant County  #1)",
+  "autores" : "Karin Slaughter",
+  "rating_medio" : 4.09,
+  "num_avaliacoes" : 53996,
+  "num_edicoes" : 24,
+  "pontuacao" : 4.019
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 28,
+  "titulo" : "4th of July (Women's Murder Club  #4)",
+  "autores" : "James Patterson/Maxine Paetro",
+  "rating_medio" : 4.07,
+  "num_avaliacoes" : 62523,
+  "num_edicoes" : 51,
+  "pontuacao" : 4.014
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 29,
+  "titulo" : "The Bourne Identity (Jason Bourne  #1)",
+  "autores" : "Robert Ludlum",
+  "rating_medio" : 4.02,
+  "num_avaliacoes" : 368195,
+  "num_edicoes" : 1,
+  "pontuacao" : 4.011
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 30,
+  "titulo" : "The Firm",
+  "autores" : "Robin Waterfield/John Grisham",
+  "rating_medio" : 4.01,
+  "num_avaliacoes" : 540910,
+  "num_edicoes" : 7,
+  "pontuacao" : 4.004
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 31,
+  "titulo" : "2nd Chance (Women's Murder Club  #2)",
+  "autores" : "James Patterson/Andrew Gross",
+  "rating_medio" : 4.04,
+  "num_avaliacoes" : 78780,
+  "num_edicoes" : 56,
+  "pontuacao" : 4.002
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 32,
+  "titulo" : "The Body Farm (Kay Scarpetta  #5)",
+  "autores" : "Patricia Cornwell",
+  "rating_medio" : 4.05,
+  "num_avaliacoes" : 57415,
+  "num_edicoes" : 57,
+  "pontuacao" : 4.0
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 33,
+  "titulo" : "The Bourne Ultimatum (Jason Bourne  #3)",
+  "autores" : "Robert Ludlum",
+  "rating_medio" : 4.05,
+  "num_avaliacoes" : 52976,
+  "num_edicoes" : 11,
+  "pontuacao" : 3.998
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 34,
+  "titulo" : "The Client",
+  "autores" : "John Grisham",
+  "rating_medio" : 4.0,
+  "num_avaliacoes" : 367399,
+  "num_edicoes" : 80,
+  "pontuacao" : 3.993
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 35,
+  "titulo" : "The Pelican Brief",
+  "autores" : "John Grisham",
+  "rating_medio" : 4.0,
+  "num_avaliacoes" : 340714,
+  "num_edicoes" : 82,
+  "pontuacao" : 3.993
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 36,
+  "titulo" : "The A.B.C. Murders (Hercule Poirot  #13)",
+  "autores" : "Agatha Christie",
+  "rating_medio" : 4.01,
+  "num_avaliacoes" : 69806,
+  "num_edicoes" : 142,
+  "pontuacao" : 3.982
+}, {
+  "genero" : "Policial e thriller",
+  "posicao" : 37,
+  "titulo" : "Pop Goes the Weasel (Alex Cross  #5)",
+  "autores" : "James Patterson",
+  "rating_medio" : 4.0,
+  "num_avaliacoes" : 52093,
+  "num_edicoes" : 45,
+  "pontuacao" : 3.972
+}, {
+  "genero" : "Romance",
+  "posicao" : 1,
+  "titulo" : "Voyager (Outlander  #3)",
+  "autores" : "Diana Gabaldon",
+  "rating_medio" : 4.39,
+  "num_avaliacoes" : 198818,
+  "num_edicoes" : 39,
+  "pontuacao" : 4.3
+}, {
+  "genero" : "Romance",
+  "posicao" : 2,
+  "titulo" : "Dragonfly in Amber (Outlander  #2)",
+  "autores" : "Diana Gabaldon",
+  "rating_medio" : 4.32,
+  "num_avaliacoes" : 222140,
+  "num_edicoes" : 45,
+  "pontuacao" : 4.251
+}, {
+  "genero" : "Romance",
+  "posicao" : 3,
+  "titulo" : "Lover Revealed (Black Dagger Brotherhood  #4)",
+  "autores" : "J.R. Ward",
+  "rating_medio" : 4.3,
+  "num_avaliacoes" : 106469,
+  "num_edicoes" : 4,
+  "pontuacao" : 4.186
+}, {
+  "genero" : "Romance",
+  "posicao" : 4,
+  "titulo" : "Rebecca",
+  "autores" : "Daphne du Maurier/Sally Beauman",
+  "rating_medio" : 4.23,
+  "num_avaliacoes" : 179639,
+  "num_edicoes" : 200,
+  "pontuacao" : 4.168
+}, {
+  "genero" : "Romance",
+  "posicao" : 5,
+  "titulo" : "Dark Lover (Black Dagger Brotherhood  #1)",
+  "autores" : "J.R. Ward",
+  "rating_medio" : 4.2,
+  "num_avaliacoes" : 259511,
+  "num_edicoes" : 17,
+  "pontuacao" : 4.159
+}, {
+  "genero" : "Romance",
+  "posicao" : 6,
+  "titulo" : "The Amazing Adventures of Kavalier & Clay",
+  "autores" : "Michael Chabon",
+  "rating_medio" : 4.18,
+  "num_avaliacoes" : 165862,
+  "num_edicoes" : 36,
+  "pontuacao" : 4.125
+}, {
+  "genero" : "Romance",
+  "posicao" : 7,
+  "titulo" : "Suzanne's Diary for Nicholas",
+  "autores" : "James Patterson",
+  "rating_medio" : 4.17,
+  "num_avaliacoes" : 131662,
+  "num_edicoes" : 45,
+  "pontuacao" : 4.108
+}, {
+  "genero" : "Romance",
+  "posicao" : 8,
+  "titulo" : "A Hunger Like No Other (Immortals After Dark  #1)",
+  "autores" : "Kresley Cole",
+  "rating_medio" : 4.19,
+  "num_avaliacoes" : 57010,
+  "num_edicoes" : 9,
+  "pontuacao" : 4.075
+}, {
+  "genero" : "Romance",
+  "posicao" : 9,
+  "titulo" : "The Unbearable Lightness of Being",
+  "autores" : "Milan Kundera/Michael Henry Heim",
+  "rating_medio" : 4.1,
+  "num_avaliacoes" : 248686,
+  "num_edicoes" : 81,
+  "pontuacao" : 4.074
+}, {
+  "genero" : "Romance",
+  "posicao" : 10,
+  "titulo" : "The Shell Seekers",
+  "autores" : "Rosamunde Pilcher",
+  "rating_medio" : 4.15,
+  "num_avaliacoes" : 84085,
+  "num_edicoes" : 57,
+  "pontuacao" : 4.073
+}, {
+  "genero" : "Romance",
+  "posicao" : 11,
+  "titulo" : "Dear John",
+  "autores" : "Nicholas Sparks",
+  "rating_medio" : 4.03,
+  "num_avaliacoes" : 502726,
+  "num_edicoes" : 12,
+  "pontuacao" : 4.022
+}, {
+  "genero" : "Romance",
+  "posicao" : 12,
+  "titulo" : "Where the Heart Is",
+  "autores" : "Billie Letts",
+  "rating_medio" : 4.02,
+  "num_avaliacoes" : 227716,
+  "num_edicoes" : 27,
+  "pontuacao" : 4.006
+}, {
+  "genero" : "Romance",
+  "posicao" : 13,
+  "titulo" : "A Bend in the Road",
+  "autores" : "Nicholas Sparks",
+  "rating_medio" : 4.03,
+  "num_avaliacoes" : 125693,
+  "num_edicoes" : 11,
+  "pontuacao" : 4.005
+}, {
+  "genero" : "Romance",
+  "posicao" : 14,
+  "titulo" : "Still Life with Woodpecker",
+  "autores" : "Tom Robbins",
+  "rating_medio" : 4.05,
+  "num_avaliacoes" : 63155,
+  "num_edicoes" : 19,
+  "pontuacao" : 4.003
+}, {
+  "genero" : "Romance",
+  "posicao" : 15,
+  "titulo" : "Guilty Pleasures (Anita Blake  Vampire Hunter  #1)",
+  "autores" : "Laurell K. Hamilton",
+  "rating_medio" : 4.02,
+  "num_avaliacoes" : 115364,
+  "num_edicoes" : 6,
+  "pontuacao" : 3.997
+}, {
+  "genero" : "Romance",
+  "posicao" : 16,
+  "titulo" : "Circle of Friends",
+  "autores" : "Maeve Binchy/René Huigen/Frans Thomése",
+  "rating_medio" : 4.03,
+  "num_avaliacoes" : 51839,
+  "num_edicoes" : 57,
+  "pontuacao" : 3.987
+}, {
+  "genero" : "Romance",
+  "posicao" : 17,
+  "titulo" : "Brideshead Revisited",
+  "autores" : "Evelyn Waugh",
+  "rating_medio" : 4.0,
+  "num_avaliacoes" : 79045,
+  "num_edicoes" : 88,
+  "pontuacao" : 3.978
+} ]
