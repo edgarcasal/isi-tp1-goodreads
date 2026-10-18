@@ -123,6 +123,15 @@
 - Vista v_ranking: junta as duas tabelas, pronta para o dashboard.
 - Modelo sem dados repetidos: candidatos só guarda os dados novos
   (género, pontuação, posição).
+  - Carga completa: DB SQL Executor faz TRUNCATE às duas tabelas antes
+  de inserir, para o workflow poder ser executado várias vezes.
+- Ordem garantida por flow variable: primeiro livros, depois
+  candidatos (por causa da chave estrangeira).
+- Erro encontrado: o inserter dos candidatos recebia os dados dos
+  livros ("column titulo does not exist"); corrigido ligando-o ao
+  ramo certo.
+- Validação: 11 127 livros e 255 candidatos na base de dados;
+  v_ranking devolve o ranking por género.
 
 ## 4. Pendentes
 - Livro 6549: título começa com espaços.
