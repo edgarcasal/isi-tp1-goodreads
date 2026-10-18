@@ -116,6 +116,14 @@
 - Os 10 livros com language_code = "por" já têm edição em português,
   por isso nunca são candidatos.
 
+### 3.1 Base de dados (PostgreSQL 18)
+- Base de dados goodreads_etl, criada a partir de sql/schema.sql.
+- Tabelas: livros (11 127 livros limpos) e candidatos (255,
+  ligados a livros por book_id, chave estrangeira).
+- Vista v_ranking: junta as duas tabelas, pronta para o dashboard.
+- Modelo sem dados repetidos: candidatos só guarda os dados novos
+  (género, pontuação, posição).
+
 ## 4. Pendentes
 - Livro 6549: título começa com espaços.
 - publication_date ainda está como texto (converter para data).
