@@ -145,6 +145,15 @@
   ### 3.3
 - Testado: email recebido com os números da execução e o ranking em anexo.
 
+### 3.4 Orquestração (Jobs)
+- Bloco Try/Catch à volta da carga na BD (TRUNCATE + inserts).
+- Catch Errors devolve FailingNode ("none" se não houve erro);
+  Rule Engine Variable define estado = sucesso / erro.
+- Nós depois do bloco ligados diretamente ao PostgreSQL Connector,
+  para correrem mesmo quando a carga falha.
+- Em caso de erro: log com "Falhou no nó: …" e email de alerta.
+- Testado: execução normal (sucesso) e erro forçado (tabela
+  candidatos_x inexistente), com log e email corretos nos dois casos.
 
 ## 4. Pendentes
 - Livro 6549: título começa com espaços.
