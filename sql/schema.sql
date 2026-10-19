@@ -34,3 +34,12 @@ SELECT c.genero, c.posicao, l.titulo, l.autores, l.rating_medio,
 FROM candidatos c
 JOIN livros l ON l.book_id = c.book_id
 ORDER BY c.genero, c.posicao;
+
+CREATE TABLE IF NOT EXISTS log_execucoes (
+    id                     SERIAL PRIMARY KEY,
+    data_hora              TIMESTAMP DEFAULT now(),
+    livros_carregados      INTEGER,
+    candidatos_carregados  INTEGER,
+    estado                 VARCHAR(20),
+    mensagem               TEXT
+);

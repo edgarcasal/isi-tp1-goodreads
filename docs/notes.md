@@ -133,6 +133,15 @@
 - Validação: 11 127 livros e 255 candidatos na base de dados;
   v_ranking devolve o ranking por género.
 
+  ### 3.2 Logs
+- Tabela log_execucoes no PostgreSQL (não incluída no TRUNCATE,
+  acumula uma linha por execução).
+- Contagens obtidas da própria BD depois da carga: regista o que
+  ficou realmente carregado.
+- Exportado para logs/log_execucoes.csv.
+- A ligação à BD não é guardada quando o workflow é fechado:
+  é preciso fazer Reset ao PostgreSQL Connector antes de executar.
+
 ## 4. Pendentes
 - Livro 6549: título começa com espaços.
 - publication_date ainda está como texto (converter para data).
