@@ -142,6 +142,10 @@
 - A ligação à BD não é guardada quando o workflow é fechado:
   é preciso fazer Reset ao PostgreSQL Connector antes de executar.
 
+  ### 3.3
+- Testado: email recebido com os números da execução e o ranking em anexo.
+
+
 ## 4. Pendentes
 - Livro 6549: título começa com espaços.
 - publication_date ainda está como texto (converter para data).

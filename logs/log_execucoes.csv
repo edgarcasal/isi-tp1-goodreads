@@ -1,3 +1,4 @@
 "id","data_hora","livros_carregados","candidatos_carregados","estado","mensagem"
 1,"2026-10-19T09:15:17.364449",11127,255,"sucesso","Execução completa do workflow goodreads_etl"
 2,"2026-10-19T09:20:19.212629",11127,255,"sucesso","Execução completa do workflow goodreads_etl"
+3,"2026-10-19T21:28:02.366243",11127,255,"sucesso","Execução completa do workflow goodreads_etl"
