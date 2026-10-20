@@ -6,3 +6,4 @@
 5,"2026-10-19T22:22:51.145838",11127,255,"sucesso","Execução completa do workflow goodreads_etl"
 6,"2026-10-19T22:27:34.937891",11127,0,"erro","Falhou no nó: DB Row Inserter"
 7,"2026-10-19T22:32:49.075695",11127,255,"sucesso","Execução completa do workflow goodreads_etl"
+8,"2026-10-20T15:04:38.064373",11127,255,"sucesso","Execução completa do workflow goodreads_etl"
