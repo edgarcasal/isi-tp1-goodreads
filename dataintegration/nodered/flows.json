@@ -1,0 +1,366 @@
+[
+    {
+        "id": "6d03fe30a2abac2a",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0382ea535eaa1b4d",
+        "type": "postgreSQLConfig",
+        "name": "goodreads_etl",
+        "host": "127.0.0.1",
+        "hostFieldType": "str",
+        "port": 5432,
+        "portFieldType": "num",
+        "database": "goodreads_etl",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": 10,
+        "maxFieldType": "num",
+        "idle": 1000,
+        "idleFieldType": "num",
+        "connectionTimeout": 10000,
+        "connectionTimeoutFieldType": "num",
+        "userFieldType": "cred",
+        "userEnv": "",
+        "passwordFieldType": "cred",
+        "passwordEnv": ""
+    },
+    {
+        "id": "0b8b5ce2f8871b18",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "dd253a2fabe8fc03",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#fcfcfd",
+            "primary": "#0d74ce",
+            "bgPage": "#f9f9fb",
+            "groupBg": "#ffffff",
+            "groupOutline": "#d9d9e0"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "42736774c4a7aa32",
+        "type": "ui-page",
+        "name": "Goodreads ETL",
+        "ui": "0b8b5ce2f8871b18",
+        "path": "/page1",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "dd253a2fabe8fc03",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "tabs": [],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "a3e357e2eb348742",
+        "type": "ui-group",
+        "name": "Candidatos por género",
+        "page": "42736774c4a7aa32",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default",
+        "tab": ""
+    },
+    {
+        "id": "a87fc8174afad860",
+        "type": "ui-group",
+        "name": "Melhor candidato por género",
+        "page": "42736774c4a7aa32",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default",
+        "tab": ""
+    },
+    {
+        "id": "4bd366ac299ee122",
+        "type": "ui-group",
+        "name": "Execuções do ETL",
+        "page": "42736774c4a7aa32",
+        "width": "12",
+        "height": 1,
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default",
+        "tab": ""
+    },
+    {
+        "id": "1f1048716d30f147",
+        "type": "postgresql",
+        "z": "6d03fe30a2abac2a",
+        "name": "",
+        "query": "SELECT genero, COUNT(*)::int AS total\nFROM candidatos\nGROUP BY genero\nORDER BY total DESC;",
+        "postgreSQLConfig": "0382ea535eaa1b4d",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 390,
+        "y": 240,
+        "wires": [
+            [
+                "e3ea135a85cf2b14"
+            ]
+        ]
+    },
+    {
+        "id": "f630e8fc18d4b225",
+        "type": "inject",
+        "z": "6d03fe30a2abac2a",
+        "name": "Atualizar dados",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 240,
+        "wires": [
+            [
+                "1f1048716d30f147",
+                "962229e4b705b03d",
+                "d1882a520bcfedea"
+            ]
+        ]
+    },
+    {
+        "id": "e3ea135a85cf2b14",
+        "type": "ui-chart",
+        "z": "6d03fe30a2abac2a",
+        "group": "a3e357e2eb348742",
+        "name": "",
+        "label": "Candidatos por género",
+        "order": 1,
+        "chartType": "bar",
+        "category": "Candidatos",
+        "categoryType": "str",
+        "xAxisLabel": "",
+        "xAxisProperty": "genero",
+        "xAxisPropertyType": "property",
+        "xAxisType": "category",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "total",
+        "yAxisPropertyType": "property",
+        "ymin": "0",
+        "ymax": "",
+        "bins": 10,
+        "action": "replace",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 660,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "962229e4b705b03d",
+        "type": "postgresql",
+        "z": "6d03fe30a2abac2a",
+        "name": "",
+        "query": "SELECT genero, titulo, autores, pontuacao\nFROM v_ranking\nWHERE posicao = 1\nORDER BY pontuacao DESC;",
+        "postgreSQLConfig": "0382ea535eaa1b4d",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 390,
+        "y": 340,
+        "wires": [
+            [
+                "f802e22b146a5ef5"
+            ]
+        ]
+    },
+    {
+        "id": "f802e22b146a5ef5",
+        "type": "ui-table",
+        "z": "6d03fe30a2abac2a",
+        "group": "a87fc8174afad860",
+        "name": "",
+        "label": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": "10",
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "",
+        "x": 610,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d1882a520bcfedea",
+        "type": "postgresql",
+        "z": "6d03fe30a2abac2a",
+        "name": "",
+        "query": "SELECT id, to_char(data_hora, 'DD/MM/YYYY HH24:MI') AS data_hora,\n       livros_carregados, candidatos_carregados, estado, mensagem\nFROM log_execucoes\nORDER BY id DESC\nLIMIT 5;",
+        "postgreSQLConfig": "0382ea535eaa1b4d",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 390,
+        "y": 420,
+        "wires": [
+            [
+                "9cf2b59ad00ffbd2"
+            ]
+        ]
+    },
+    {
+        "id": "9cf2b59ad00ffbd2",
+        "type": "ui-table",
+        "z": "6d03fe30a2abac2a",
+        "group": "4bd366ac299ee122",
+        "name": "",
+        "label": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "deselect": true,
+        "selectionType": "none",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "className": "",
+        "x": 610,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d718781cfe9fdf86",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-contrib-postgresql": "0.16.2",
+            "@flowfuse/node-red-dashboard": "1.33.0"
+        }
+    }
+]
