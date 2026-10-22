@@ -451,6 +451,16 @@
       <to>Definir tipos</to>
       <enabled>Y</enabled>
     </hop>
+    <hop>
+      <from>Definir tipos</from>
+      <to>Normalizar idioma</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Normalizar idioma</from>
+      <to>Memory group by</to>
+      <enabled>Y</enabled>
+    </hop>
   </order>
   <step>
     <name>Ler linhas do CSV</name>
@@ -1083,6 +1093,84 @@
     <GUI>
       <xloc>784</xloc>
       <yloc>304</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Normalizar idioma</name>
+    <type>ReplaceString</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <in_stream_name>language_code</in_stream_name>
+        <out_stream_name/>
+        <use_regex>yes</use_regex>
+        <replace_string>^en(g|-[A-Z]+)$</replace_string>
+        <replace_by_string>eng</replace_by_string>
+        <set_empty_string>N</set_empty_string>
+        <replace_field_by_string/>
+        <whole_word>no</whole_word>
+        <case_sensitive>yes</case_sensitive>
+        <is_unicode>no</is_unicode>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>912</xloc>
+      <yloc>304</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Memory group by</name>
+    <type>MemoryGroupBy</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <give_back_row>N</give_back_row>
+    <group>
+      <field>
+        <name>language_code</name>
+      </field>
+    </group>
+    <fields>
+      <field>
+        <aggregate>n</aggregate>
+        <subject>bookID</subject>
+        <type>COUNT_ALL</type>
+        <valuefield/>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1104</xloc>
+      <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
