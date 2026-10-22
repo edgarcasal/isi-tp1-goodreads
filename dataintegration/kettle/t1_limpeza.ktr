@@ -434,6 +434,27 @@
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
+    <notepad>
+      <note>Validação: 24 códigos, eng = 10 541</note>
+      <xloc>800</xloc>
+      <yloc>480</yloc>
+      <width>243</width>
+      <heigth>30</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>Y</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>255</backgroundcolorgreen>
+      <backgroundcolorblue>255</backgroundcolorblue>
+      <bordercolorred>255</bordercolorred>
+      <bordercolorgreen>255</bordercolorgreen>
+      <bordercolorblue>255</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
   </notepads>
   <order>
     <hop>
@@ -458,7 +479,17 @@
     </hop>
     <hop>
       <from>Normalizar idioma</from>
-      <to>Memory group by</to>
+      <to>Validação da contagem de idiomas</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Normalizar idioma</from>
+      <to>Filtrar candidatos</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filtrar candidatos</from>
+      <to>Candidatos</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -1100,7 +1131,7 @@
     <name>Normalizar idioma</name>
     <type>ReplaceString</type>
     <description/>
-    <distribute>Y</distribute>
+    <distribute>N</distribute>
     <custom_distribution/>
     <copies>1</copies>
     <partitioning>
@@ -1136,7 +1167,7 @@
     </GUI>
   </step>
   <step>
-    <name>Memory group by</name>
+    <name>Validação da contagem de idiomas</name>
     <type>MemoryGroupBy</type>
     <description/>
     <distribute>Y</distribute>
@@ -1169,8 +1200,125 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1104</xloc>
-      <yloc>320</yloc>
+      <xloc>912</xloc>
+      <yloc>416</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Filtrar candidatos</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>Candidatos</send_true_to>
+    <send_false_to/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <conditions>
+          <condition>
+            <negated>N</negated>
+            <operator>AND</operator>
+            <conditions>
+              <condition>
+                <negated>N</negated>
+                <leftvalue>language_code</leftvalue>
+                <function>=</function>
+                <rightvalue/>
+                <value>
+                  <name>constant</name>
+                  <type>String</type>
+                  <text>eng</text>
+                  <length>-1</length>
+                  <precision>-1</precision>
+                  <isnull>N</isnull>
+                  <mask/>
+                </value>
+              </condition>
+              <condition>
+                <negated>N</negated>
+                <operator>AND</operator>
+                <conditions>
+                  <condition>
+                    <negated>N</negated>
+                    <leftvalue>ratings_count</leftvalue>
+                    <function>&gt;=</function>
+                    <rightvalue/>
+                    <value>
+                      <name>constant</name>
+                      <type>Integer</type>
+                      <text>50000</text>
+                      <length>-1</length>
+                      <precision>0</precision>
+                      <isnull>N</isnull>
+                      <mask>####0;-####0</mask>
+                    </value>
+                  </condition>
+                  <condition>
+                    <negated>N</negated>
+                    <operator>AND</operator>
+                    <leftvalue>average_rating</leftvalue>
+                    <function>&gt;=</function>
+                    <rightvalue/>
+                    <value>
+                      <name>constant</name>
+                      <type>Number</type>
+                      <text>4.0</text>
+                      <length>-1</length>
+                      <precision>-1</precision>
+                      <isnull>N</isnull>
+                      <mask>#</mask>
+                    </value>
+                  </condition>
+                </conditions>
+              </condition>
+            </conditions>
+          </condition>
+        </conditions>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1120</xloc>
+      <yloc>304</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Candidatos</name>
+    <type>Dummy</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1136</xloc>
+      <yloc>432</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
