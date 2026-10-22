@@ -456,6 +456,61 @@
       <drawshadow>Y</drawshadow>
     </notepad>
   </notepads>
+  <connection>
+    <name>goodreads_pg</name>
+    <server>localhost</server>
+    <type>POSTGRESQL</type>
+    <access>Native</access>
+    <database>goodreads_etl</database>
+    <port>5432</port>
+    <username>postgres</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce108ccafd8c</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>MSSQL_DOUBLE_DECIMAL_SEPARATOR</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>5432</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
   <order>
     <hop>
       <from>Ler linhas do CSV</from>
@@ -489,7 +544,7 @@
     </hop>
     <hop>
       <from>Filtrar candidatos</from>
-      <to>Candidatos</to>
+      <to>Gravar candidatos</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -861,7 +916,7 @@
     <fields>
       <field>
         <name>bookID</name>
-        <rename/>
+        <rename>book_id</rename>
       </field>
       <field>
         <name>title</name>
@@ -909,8 +964,8 @@
       </field>
       <select_unspecified>N</select_unspecified>
       <meta>
-        <name>bookID</name>
-        <rename>bookID</rename>
+        <name>book_id</name>
+        <rename>book_id</rename>
         <type>Integer</type>
         <length>-2</length>
         <precision>-2</precision>
@@ -1186,7 +1241,7 @@
     <fields>
       <field>
         <aggregate>n</aggregate>
-        <subject>bookID</subject>
+        <subject>book_id</subject>
         <type>COUNT_ALL</type>
         <valuefield/>
       </field>
@@ -1216,7 +1271,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <send_true_to>Candidatos</send_true_to>
+    <send_true_to>Gravar candidatos</send_true_to>
     <send_false_to/>
     <compare>
       <condition>
@@ -1298,8 +1353,8 @@
     </GUI>
   </step>
   <step>
-    <name>Candidatos</name>
-    <type>Dummy</type>
+    <name>Gravar candidatos</name>
+    <type>TableOutput</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -1308,6 +1363,25 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
+    <connection>goodreads_pg</connection>
+    <schema>kettle</schema>
+    <table>candidatos</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -1317,8 +1391,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1136</xloc>
-      <yloc>432</yloc>
+      <xloc>1264</xloc>
+      <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
