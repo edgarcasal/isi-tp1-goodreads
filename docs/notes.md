@@ -142,6 +142,41 @@
 - A ligação à BD não é guardada quando o workflow é fechado:
   é preciso fazer Reset ao PostgreSQL Connector antes de executar.
 
+  ### 3.3
+- Testado: email recebido com os números da execução e o ranking em anexo.
+
+### 3.4 Orquestração (Jobs)
+- Bloco Try/Catch à volta da carga na BD (TRUNCATE + inserts).
+- Catch Errors devolve FailingNode ("none" se não houve erro);
+  Rule Engine Variable define estado = sucesso / erro.
+- Nós depois do bloco ligados diretamente ao PostgreSQL Connector,
+  para correrem mesmo quando a carga falha.
+- Em caso de erro: log com "Falhou no nó: …" e email de alerta.
+- Testado: execução normal (sucesso) e erro forçado (tabela
+  candidatos_x inexistente), com log e email corretos nos dois casos.
+
+### 3.5 Dashboard (Node-RED + Dashboard 2.0)
+- Node-RED lê diretamente do PostgreSQL (node-red-contrib-postgresql),
+  com atualização automática a cada minuto (inject).
+- Painel "Goodreads ETL" com 3 blocos:
+  - Candidatos por género (gráfico de barras);
+  - Melhor candidato por género (vista v_ranking, posicao = 1);
+  - Execuções do ETL (últimas 5 linhas de log_execucoes).
+- Problemas resolvidos:
+  - SSL desativado (o PostgreSQL local não tem SSL configurado);
+  - utilizador e password guardados como "credential" (não ficam no
+    ficheiro exportado);
+  - COUNT(*)::int: o bigint chegava como texto e o gráfico não desenhava;
+  - eixo Y a começar em 0 (para as barras serem proporcionais);
+  - gráfico e tabelas em modo "Replace": em "Append" as linhas
+    repetiam-se a cada atualização.
+- Decisão: a tabela mostra só o melhor candidato de cada género, porque
+  o top 5 por género numa só tabela era difícil de ler. O ranking
+  completo está na BD e nos ficheiros CSV/JSON exportados.
+- Trabalho futuro: lista para escolher o género e ver o top 5 desse
+  género.
+- Fluxo exportado em dataintegration/nodered/flows.json.
+
 ## 4. Pendentes
 - Livro 6549: título começa com espaços.
 - publication_date ainda está como texto (converter para data).
