@@ -506,6 +506,16 @@
       <to>Chamar Open Library</to>
       <enabled>Y</enabled>
     </hop>
+    <hop>
+      <from>Chamar Open Library</from>
+      <to>Classificar edição PT</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Classificar edição PT</from>
+      <to>Validacao da contagem edicao PT</to>
+      <enabled>Y</enabled>
+    </hop>
   </order>
   <step>
     <name>Ler candidatos</name>
@@ -963,6 +973,140 @@ FROM kettle.candidatos</sql>
     <GUI>
       <xloc>704</xloc>
       <yloc>368</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Classificar edição PT</name>
+    <type>ScriptValueMod</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <compatible>N</compatible>
+    <optimizationLevel>9</optimizationLevel>
+    <jsScripts>
+      <jsScript>
+        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>var obj = JSON.parse(resultado);
+var num_found = obj.numFound;
+var work_key = "";
+var idiomas = "";
+
+if (obj.docs &amp;&amp; obj.docs.length > 0) {
+  work_key = obj.docs[0].key;
+  var lista = [];
+  for (var i = 0; i &lt; obj.docs.length; i++) {
+    var l = obj.docs[i].language;
+    if (l) {
+      for (var j = 0; j &lt; l.length; j++) {
+        if (lista.indexOf(l[j]) &lt; 0) { lista.push(l[j]); }
+      }
+    }
+  }
+  idiomas = lista.join(",");
+}
+
+var edicao_pt;
+if (num_found == 0) {
+  edicao_pt = "Desconhecido";
+} else if (("," + idiomas + ",").indexOf(",por,") >= 0) {
+  edicao_pt = "Sim";
+} else {
+  edicao_pt = "Não";
+}
+</jsScript_script>
+      </jsScript>
+    </jsScripts>
+    <fields>
+      <field>
+        <name>num_found</name>
+        <rename>num_found</rename>
+        <type>Integer</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>work_key</name>
+        <rename>work_key</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>idiomas</name>
+        <rename>idiomas</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>edicao_pt</name>
+        <rename>edicao_pt</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>880</xloc>
+      <yloc>368</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Validacao da contagem edicao PT</name>
+    <type>MemoryGroupBy</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <give_back_row>N</give_back_row>
+    <group>
+      <field>
+        <name>edicao_pt</name>
+      </field>
+    </group>
+    <fields>
+      <field>
+        <aggregate>n</aggregate>
+        <subject>book_id</subject>
+        <type>COUNT_ALL</type>
+        <valuefield/>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>880</xloc>
+      <yloc>496</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
