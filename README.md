@@ -26,7 +26,7 @@ O processo:
 ## Demonstração (vídeos)
 
 - Parte 1 — KNIME, PostgreSQL e Node-RED: https://youtu.be/X_69v7VZAiQ
-- Parte 2 — Pentaho Kettle: 
+- Parte 2 — Pentaho Kettle: https://youtu.be/dqoOvzl8H5E
 
 ## Estrutura dos ficheiros
 
@@ -40,7 +40,9 @@ O processo:
 | `data/input/generos.xml` | Regras de classificação por género (regex) |
 | `data/output/ranking_candidatos.csv` | Ranking de candidatos por género (CSV) |
 | `data/output/ranking_candidatos_0.json` | Ranking de candidatos por género (JSON) |
-| `data/output/logs/log_execucoes.csv` | Histórico de execuções do processo |
+| `data/output/logs/log_execucoes.csv` | Histórico de execuções do processo (KNIME) |
+| `data/output/livros_candidatos.xlsx` | Resultado da versão Kettle em Excel |
+| `data/output/logs/t1.log`, `t2.log` | Logs das transformações do Kettle |
 | `src/sql/schema.sql` | Criação das tabelas e da vista (schema `public`, KNIME) |
 | `src/sql/schema_kettle.sql` | Criação das tabelas do Kettle (schema `kettle`) |
 | `src/sql/goodread_etl_dump.sql` | Cópia da base de dados com os dados carregados |
@@ -51,7 +53,7 @@ A pasta `data/staging/` é gerada pelo workflow durante a execução e não est�
 
 - PostgreSQL 18 (e pgAdmin)
 - KNIME Analytics Platform 5.x
-- Pentaho Data Integration (Kettle)
+- Pentaho Data Integration (Kettle) 10.2, com o driver JDBC do PostgreSQL recente (`postgresql-42.7.x.jar`) em `data-integration/lib/`
 - Node.js e Node-RED, com os módulos `node-red-contrib-postgresql` e `@flowfuse/node-red-dashboard`
 - Uma conta de email com acesso SMTP (foi usado o Office 365)
 
@@ -77,7 +79,43 @@ A pasta `data/staging/` é gerada pelo workflow durante a execução e não est�
 
 ### 3. Pentaho Kettle
 
-a completar...
+A versão do Kettle é uma versão reduzida do processo (sem classificação por género nem ranking).
+Os ficheiros estão em `dataintegration/kettle/`:
+
+| Ficheiro | O que faz |
+|---|---|
+| `t1_limpeza.ktr` | Lê o `books.csv`, corrige as linhas com vírgulas nos autores, define os tipos, normaliza o idioma, filtra os candidatos e grava em `kettle.candidatos` |
+| `t2_api.ktr` | Consulta a Open Library para cada candidato, classifica a edição em português, remove duplicados e grava em `kettle.livros_final` e no Excel |
+| `job_etl.kjb` | Executa a `t1` e a `t2` por ordem, envia email de sucesso ou de alerta e regista logs |
+
+**Preparação**
+
+1. Confirmar que o schema `kettle` existe na base `goodreads_etl` (secção 1, passo 3).
+2. Confirmar que a pasta `data/output/logs/` existe (o Kettle não a cria sozinho).
+3. Definir as variáveis no ficheiro `kettle.properties`
+   (Windows: `C:\Users\<utilizador>\.kettle\kettle.properties`; Linux/macOS: `~/.kettle/kettle.properties`).
+   Este ficheiro fica fora do repositório, por isso as credenciais não são versionadas:
+
+        PG_USER=<utilizador do PostgreSQL>
+        PG_PASS=<password do PostgreSQL>
+        DATA_DIR=<caminho completo da pasta data do projeto, com barras normais>
+        SMTP_USER=<email que envia as notificações>
+        SMTP_PASS=<password desse email>
+        SMTP_TO=<email que recebe as notificações>
+
+   Exemplo: `DATA_DIR=C:/isi-tp1-goodreads/data`. Depois de editar o ficheiro, **reiniciar o Spoon**,
+   porque só lê as variáveis ao arrancar.
+
+**Execução**
+
+1. Abrir o Spoon (`spoon.bat` em Windows, `spoon.sh` em Linux/macOS).
+2. **File → Open** → `dataintegration/kettle/job_etl.kjb`.
+3. Em **View → Database connections**, fazer **Test** à ligação `goodreads_pg` (deve dar "Connection successful").
+4. Executar o job com o botão ▶. Demora cerca de 7 minutos, devido aos 363 pedidos à API
+   com intervalo de 1 segundo.
+
+Para executar só uma transformação, abrir `t1_limpeza.ktr` e depois `t2_api.ktr` (por esta ordem,
+porque a `t2` lê a tabela criada pela `t1`) e carregar em ▶.
 
 ### 4. Dashboard (Node-RED)
 
@@ -94,5 +132,6 @@ a completar...
 
 - Tabelas `livros` (11 127), `candidatos` (255) e `log_execucoes`, e vista `v_ranking`, no PostgreSQL.
 - Ranking por género em CSV e JSON (`data/output/`).
+- Versão Kettle: tabelas `kettle.candidatos` (363) e `kettle.livros_final` (cerca de 361, com a coluna `edicao_pt`), e o ficheiro `data/output/livros_candidatos.xlsx`. Os valores da API podem variar ligeiramente, porque os dados da Open Library mudam.
 - Email de resumo, com o ranking em anexo, no fim de cada execução.
 - Dashboard com os candidatos por género, o melhor candidato de cada género e o histórico de execuções.
