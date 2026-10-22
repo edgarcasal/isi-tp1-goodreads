@@ -1,16 +1,16 @@
-2026-10-22 21:40:24.985 - Executar t2 - Using run configuration [Pentaho local]
-2026-10-22 21:40:24.986 - t2_api - Expedindo in�cio para transforma��o [t2_api]
-2026-10-22 21:40:24.991 - Gravar livros finais.0 - Connected to database [goodreads_pg] (commit=1000)
-2026-10-22 21:40:25.105 - Ler candidatos.0 - Finished reading query, closing connection
-2026-10-22 21:40:25.107 - Ler candidatos.0 - Finished processing (I=363, O=0, R=0, W=363, U=0, E=0)
-2026-10-22 21:40:25.109 - Definir User-Agent.0 - Finished processing (I=0, O=0, R=363, W=363, U=0, E=0)
-2026-10-22 21:40:26.723 - Classificar edição PT.0 - Optimization level set to 9.
-2026-10-22 21:46:30.112 - Esperar 1 segundo.0 - Finished processing (I=0, O=0, R=363, W=363, U=0, E=0)
-2026-10-22 21:46:30.853 - Chamar Open Library.0 - Finished processing (I=0, O=0, R=363, W=363, U=0, E=0)
-2026-10-22 21:46:30.855 - Classificar edição PT.0 - Finished processing (I=0, O=0, R=363, W=726, U=0, E=0)
-2026-10-22 21:46:30.871 - Validacao da contagem edicao PT.0 - Finished processing (I=0, O=0, R=363, W=3, U=0, E=0)
-2026-10-22 21:46:30.871 - Limpar colunas tecnicas.0 - Finished processing (I=0, O=0, R=363, W=363, U=0, E=0)
-2026-10-22 21:46:30.887 - Ordenar por obra e avaliacoes.0 - Finished processing (I=0, O=0, R=363, W=363, U=0, E=0)
-2026-10-22 21:46:30.895 - Remover duplicados.0 - Finished processing (I=0, O=0, R=363, W=722, U=0, E=0)
-2026-10-22 21:46:30.946 - Gravar livros finais.0 - Finished processing (I=0, O=361, R=361, W=361, U=0, E=0)
-2026-10-22 21:46:30.965 - Exportar para Excel.0 - Finished processing (I=0, O=362, R=361, W=361, U=0, E=0)
+2026-10-22 22:43:14.524 - Executar t2 - Using run configuration [Pentaho local]
+2026-10-22 22:43:14.524 - t2_api - Expedindo in�cio para transforma��o [t2_api]
+2026-10-22 22:43:14.633 - Gravar livros finais.0 - Connected to database [goodreads_pg] (commit=1000)
+2026-10-22 22:43:14.800 - Ler candidatos.0 - Finished reading query, closing connection
+2026-10-22 22:43:14.802 - Ler candidatos.0 - Finished processing (I=363, O=0, R=0, W=363, U=0, E=0)
+2026-10-22 22:43:14.819 - Definir User-Agent.0 - Finished processing (I=0, O=0, R=363, W=363, U=0, E=0)
+2026-10-22 22:43:17.019 - Classificar edição PT.0 - Optimization level set to 9.
+2026-10-22 22:49:20.459 - Esperar 1 segundo.0 - Finished processing (I=0, O=0, R=363, W=363, U=0, E=0)
+2026-10-22 22:49:21.089 - Chamar Open Library.0 - Finished processing (I=0, O=0, R=363, W=363, U=0, E=0)
+2026-10-22 22:49:21.106 - Classificar edição PT.0 - Finished processing (I=0, O=0, R=363, W=726, U=0, E=0)
+2026-10-22 22:49:21.137 - Limpar colunas tecnicas.0 - Finished processing (I=0, O=0, R=363, W=363, U=0, E=0)
+2026-10-22 22:49:21.137 - Validacao da contagem edicao PT.0 - Finished processing (I=0, O=0, R=363, W=3, U=0, E=0)
+2026-10-22 22:49:21.176 - Ordenar por obra e avaliacoes.0 - Finished processing (I=0, O=0, R=363, W=363, U=0, E=0)
+2026-10-22 22:49:21.203 - Remover duplicados.0 - Finished processing (I=0, O=0, R=363, W=722, U=0, E=0)
+2026-10-22 22:49:21.306 - Gravar livros finais.0 - Finished processing (I=0, O=361, R=361, W=361, U=0, E=0)
+2026-10-22 22:49:21.672 - Exportar para Excel.0 - Finished processing (I=0, O=362, R=361, W=361, U=0, E=0)

@@ -323,7 +323,7 @@
       <clear_rows>N</clear_rows>
       <clear_files>N</clear_files>
       <set_logfile>Y</set_logfile>
-      <logfile>C:\Users\jsima\Desktop\Escola\3ºAno - 1ºSemestre\Integração de Sistemas de Informação\isi-tp1-goodreads\data\output\logs\t1</logfile>
+      <logfile>${DATA_DIR}/output/logs/t1</logfile>
       <logext>log</logext>
       <add_date>N</add_date>
       <add_time>N</add_time>
@@ -362,7 +362,7 @@
       <clear_rows>N</clear_rows>
       <clear_files>N</clear_files>
       <set_logfile>Y</set_logfile>
-      <logfile>C:\Users\jsima\Desktop\Escola\3ºAno - 1ºSemestre\Integração de Sistemas de Informação\isi-tp1-goodreads\data\output\logs\t2</logfile>
+      <logfile>${DATA_DIR}/output/logs/t2</logfile>
       <logext>log</logext>
       <add_date>N</add_date>
       <add_time>N</add_time>

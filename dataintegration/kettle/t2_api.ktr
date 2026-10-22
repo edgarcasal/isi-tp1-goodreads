@@ -430,7 +430,7 @@
     <created_date>2026/10/22 12:09:57.700</created_date>
     <modified_user>-</modified_user>
     <modified_date>2026/10/22 12:09:57.700</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAA/wMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -442,8 +442,8 @@
     <access>Native</access>
     <database>goodreads_etl</database>
     <port>5432</port>
-    <username>postgres</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce108ccafd8c</password>
+    <username>${PG_USER}</username>
+    <password>${PG_PASS}</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -542,6 +542,527 @@
       <enabled>Y</enabled>
     </hop>
   </order>
+  <step>
+    <name>Chamar Open Library</name>
+    <type>Rest</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <applicationType>TEXT PLAIN</applicationType>
+    <method>GET</method>
+    <url/>
+    <urlInField>Y</urlInField>
+    <dynamicMethod>N</dynamicMethod>
+    <methodFieldName/>
+    <urlField>url</urlField>
+    <bodyField/>
+    <httpLogin/>
+    <httpPassword>Encrypted </httpPassword>
+    <proxyHost/>
+    <proxyPort/>
+    <preemptive>N</preemptive>
+    <trustStoreFile/>
+    <trustStorePassword>Encrypted </trustStorePassword>
+    <headers>
+      <header>
+        <field>user_agent</field>
+        <name>User-Agent</name>
+      </header>
+    </headers>
+    <parameters>
+      </parameters>
+    <matrixParameters>
+      </matrixParameters>
+    <result>
+      <name>resultado</name>
+      <code>http_status</code>
+      <response_time/>
+      <response_header/>
+    </result>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>512</xloc>
+      <yloc>368</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Classificar edição PT</name>
+    <type>ScriptValueMod</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <compatible>N</compatible>
+    <optimizationLevel>9</optimizationLevel>
+    <jsScripts>
+      <jsScript>
+        <jsScript_type>0</jsScript_type>
+        <jsScript_name>Script 1</jsScript_name>
+        <jsScript_script>var obj = JSON.parse(resultado);
+var num_found = obj.numFound;
+var work_key = "";
+var idiomas = "";
+
+if (obj.docs &amp;&amp; obj.docs.length > 0) {
+  work_key = obj.docs[0].key;
+  var lista = [];
+  for (var i = 0; i &lt; obj.docs.length; i++) {
+    var l = obj.docs[i].language;
+    if (l) {
+      for (var j = 0; j &lt; l.length; j++) {
+        if (lista.indexOf(l[j]) &lt; 0) { lista.push(l[j]); }
+      }
+    }
+  }
+  idiomas = lista.join(",");
+}
+
+var edicao_pt;
+if (num_found == 0) {
+  edicao_pt = "Desconhecido";
+} else if (("," + idiomas + ",").indexOf(",por,") >= 0) {
+  edicao_pt = "Sim";
+} else {
+  edicao_pt = "Não";
+}
+</jsScript_script>
+      </jsScript>
+    </jsScripts>
+    <fields>
+      <field>
+        <name>num_found</name>
+        <rename>num_found</rename>
+        <type>Integer</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>work_key</name>
+        <rename>work_key</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>idiomas</name>
+        <rename>idiomas</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+      <field>
+        <name>edicao_pt</name>
+        <rename>edicao_pt</rename>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <replace>N</replace>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>672</xloc>
+      <yloc>368</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Definir User-Agent</name>
+    <type>Constant</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>user_agent</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>ISI-TP1-Goodreads/1.0 (estudante IPCA; a31510@alunos.ipca.pt)</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>208</xloc>
+      <yloc>368</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Esperar 1 segundo</name>
+    <type>Delay</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <timeout>1</timeout>
+    <scaletime>seconds</scaletime>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>352</xloc>
+      <yloc>368</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Exportar para Excel</name>
+    <type>TypeExitExcelWriterStep</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <header>Y</header>
+    <footer>N</footer>
+    <makeSheetActive>Y</makeSheetActive>
+    <startingCell>A1</startingCell>
+    <appendOmitHeader>N</appendOmitHeader>
+    <appendOffset>0</appendOffset>
+    <appendEmpty>0</appendEmpty>
+    <rowWritingMethod>overwrite</rowWritingMethod>
+    <forceFormulaRecalculation>N</forceFormulaRecalculation>
+    <leaveExistingStylesUnchanged>N</leaveExistingStylesUnchanged>
+    <extend_data_validation>N</extend_data_validation>
+    <appendLines>N</appendLines>
+    <add_to_result_filenames>Y</add_to_result_filenames>
+    <file>
+      <name>${DATA_DIR}/output/livros_candidatos</name>
+      <extention>xls</extention>
+      <create_parent>N</create_parent>
+      <do_not_open_newfile_init>N</do_not_open_newfile_init>
+      <split>N</split>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format/>
+      <sheetname>candidatos</sheetname>
+      <autosizecolums>N</autosizecolums>
+      <retain_null_values>Y</retain_null_values>
+      <stream_data>N</stream_data>
+      <protect_sheet>N</protect_sheet>
+      <password>Encrypted </password>
+      <protected_by/>
+      <splitevery>0</splitevery>
+      <if_file_exists>new</if_file_exists>
+      <if_sheet_exists>new</if_sheet_exists>
+    </file>
+    <template>
+      <enabled>N</enabled>
+      <sheet_enabled>N</sheet_enabled>
+      <filename>template.xls</filename>
+      <sheetname/>
+      <hidden>N</hidden>
+    </template>
+    <fields>
+      <field>
+        <name>book_id</name>
+        <type>String</type>
+        <format/>
+        <title>book_id</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>title</name>
+        <type>String</type>
+        <format/>
+        <title>title</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>authors</name>
+        <type>String</type>
+        <format/>
+        <title>authors</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>average_rating</name>
+        <type>Number</type>
+        <format/>
+        <title>average_rating</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>isbn</name>
+        <type>String</type>
+        <format/>
+        <title>isbn</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>isbn13</name>
+        <type>String</type>
+        <format/>
+        <title>isbn13</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>language_code</name>
+        <type>String</type>
+        <format/>
+        <title>language_code</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>num_pages</name>
+        <type>Number</type>
+        <format/>
+        <title>num_pages</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>ratings_count</name>
+        <type>Number</type>
+        <format/>
+        <title>ratings_count</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>text_reviews_count</name>
+        <type>Number</type>
+        <format/>
+        <title>text_reviews_count</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>publication_date</name>
+        <type>String</type>
+        <format/>
+        <title>publication_date</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>publisher</name>
+        <type>String</type>
+        <format/>
+        <title>publisher</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>num_found</name>
+        <type>Integer</type>
+        <format/>
+        <title>num_found</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>work_key</name>
+        <type>String</type>
+        <format/>
+        <title>work_key</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>idiomas</name>
+        <type>String</type>
+        <format/>
+        <title>idiomas</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>edicao_pt</name>
+        <type>String</type>
+        <format/>
+        <title>edicao_pt</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1360</xloc>
+      <yloc>304</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Gravar livros finais</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>goodreads_pg</connection>
+    <schema>kettle</schema>
+    <table>livros_final</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1296</xloc>
+      <yloc>496</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
   <step>
     <name>Ler candidatos</name>
     <type>TableInput</type>
@@ -880,262 +1401,6 @@ FROM kettle.candidatos</sql>
     </GUI>
   </step>
   <step>
-    <name>Definir User-Agent</name>
-    <type>Constant</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>user_agent</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif>ISI-TP1-Goodreads/1.0 (estudante IPCA; a31510@alunos.ipca.pt)</nullif>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>208</xloc>
-      <yloc>368</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Esperar 1 segundo</name>
-    <type>Delay</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <timeout>1</timeout>
-    <scaletime>seconds</scaletime>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>352</xloc>
-      <yloc>368</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Chamar Open Library</name>
-    <type>Rest</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <applicationType>TEXT PLAIN</applicationType>
-    <method>GET</method>
-    <url/>
-    <urlInField>Y</urlInField>
-    <dynamicMethod>N</dynamicMethod>
-    <methodFieldName/>
-    <urlField>url</urlField>
-    <bodyField/>
-    <httpLogin/>
-    <httpPassword>Encrypted </httpPassword>
-    <proxyHost/>
-    <proxyPort/>
-    <preemptive>N</preemptive>
-    <trustStoreFile/>
-    <trustStorePassword>Encrypted </trustStorePassword>
-    <headers>
-      <header>
-        <field>user_agent</field>
-        <name>User-Agent</name>
-      </header>
-    </headers>
-    <parameters>
-      </parameters>
-    <matrixParameters>
-      </matrixParameters>
-    <result>
-      <name>resultado</name>
-      <code>http_status</code>
-      <response_time/>
-      <response_header/>
-    </result>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>512</xloc>
-      <yloc>368</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Classificar edição PT</name>
-    <type>ScriptValueMod</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <compatible>N</compatible>
-    <optimizationLevel>9</optimizationLevel>
-    <jsScripts>
-      <jsScript>
-        <jsScript_type>0</jsScript_type>
-        <jsScript_name>Script 1</jsScript_name>
-        <jsScript_script>var obj = JSON.parse(resultado);
-var num_found = obj.numFound;
-var work_key = "";
-var idiomas = "";
-
-if (obj.docs &amp;&amp; obj.docs.length > 0) {
-  work_key = obj.docs[0].key;
-  var lista = [];
-  for (var i = 0; i &lt; obj.docs.length; i++) {
-    var l = obj.docs[i].language;
-    if (l) {
-      for (var j = 0; j &lt; l.length; j++) {
-        if (lista.indexOf(l[j]) &lt; 0) { lista.push(l[j]); }
-      }
-    }
-  }
-  idiomas = lista.join(",");
-}
-
-var edicao_pt;
-if (num_found == 0) {
-  edicao_pt = "Desconhecido";
-} else if (("," + idiomas + ",").indexOf(",por,") >= 0) {
-  edicao_pt = "Sim";
-} else {
-  edicao_pt = "Não";
-}
-</jsScript_script>
-      </jsScript>
-    </jsScripts>
-    <fields>
-      <field>
-        <name>num_found</name>
-        <rename>num_found</rename>
-        <type>Integer</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <replace>N</replace>
-      </field>
-      <field>
-        <name>work_key</name>
-        <rename>work_key</rename>
-        <type>String</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <replace>N</replace>
-      </field>
-      <field>
-        <name>idiomas</name>
-        <rename>idiomas</rename>
-        <type>String</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <replace>N</replace>
-      </field>
-      <field>
-        <name>edicao_pt</name>
-        <rename>edicao_pt</rename>
-        <type>String</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <replace>N</replace>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>672</xloc>
-      <yloc>368</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Validacao da contagem edicao PT</name>
-    <type>MemoryGroupBy</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <give_back_row>N</give_back_row>
-    <group>
-      <field>
-        <name>edicao_pt</name>
-      </field>
-    </group>
-    <fields>
-      <field>
-        <aggregate>n</aggregate>
-        <subject>book_id</subject>
-        <type>COUNT_ALL</type>
-        <valuefield/>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>672</xloc>
-      <yloc>496</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>Limpar colunas tecnicas</name>
     <type>SelectValues</type>
     <description/>
@@ -1149,67 +1414,51 @@ if (num_found == 0) {
     <fields>
       <field>
         <name>book_id</name>
-        <rename/>
       </field>
       <field>
         <name>title</name>
-        <rename/>
       </field>
       <field>
         <name>authors</name>
-        <rename/>
       </field>
       <field>
         <name>average_rating</name>
-        <rename/>
       </field>
       <field>
         <name>isbn</name>
-        <rename/>
       </field>
       <field>
         <name>isbn13</name>
-        <rename/>
       </field>
       <field>
         <name>language_code</name>
-        <rename/>
       </field>
       <field>
         <name>num_pages</name>
-        <rename/>
       </field>
       <field>
         <name>ratings_count</name>
-        <rename/>
       </field>
       <field>
         <name>text_reviews_count</name>
-        <rename/>
       </field>
       <field>
         <name>publication_date</name>
-        <rename/>
       </field>
       <field>
         <name>publisher</name>
-        <rename/>
       </field>
       <field>
         <name>num_found</name>
-        <rename/>
       </field>
       <field>
         <name>work_key</name>
-        <rename/>
       </field>
       <field>
         <name>idiomas</name>
-        <rename/>
       </field>
       <field>
         <name>edicao_pt</name>
-        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -1313,8 +1562,8 @@ if (num_found == 0) {
     </GUI>
   </step>
   <step>
-    <name>Gravar livros finais</name>
-    <type>TableOutput</type>
+    <name>Validacao da contagem edicao PT</name>
+    <type>MemoryGroupBy</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -1323,283 +1572,18 @@ if (num_found == 0) {
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>goodreads_pg</connection>
-    <schema>kettle</schema>
-    <table>livros_final</table>
-    <commit>1000</commit>
-    <truncate>Y</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>N</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1296</xloc>
-      <yloc>496</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Exportar para Excel</name>
-    <type>TypeExitExcelWriterStep</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <header>Y</header>
-    <footer>N</footer>
-    <makeSheetActive>Y</makeSheetActive>
-    <startingCell>A1</startingCell>
-    <appendOmitHeader>N</appendOmitHeader>
-    <appendOffset>0</appendOffset>
-    <appendEmpty>0</appendEmpty>
-    <rowWritingMethod>overwrite</rowWritingMethod>
-    <forceFormulaRecalculation>N</forceFormulaRecalculation>
-    <leaveExistingStylesUnchanged>N</leaveExistingStylesUnchanged>
-    <extend_data_validation>N</extend_data_validation>
-    <appendLines>N</appendLines>
-    <add_to_result_filenames>Y</add_to_result_filenames>
-    <file>
-      <name>C:\Users\jsima\Desktop\Escola\3ºAno - 1ºSemestre\Integração de Sistemas de Informação\isi-tp1-goodreads\data\output\livros_candidatos</name>
-      <extention>xls</extention>
-      <create_parent>N</create_parent>
-      <do_not_open_newfile_init>N</do_not_open_newfile_init>
-      <split>N</split>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format/>
-      <sheetname>candidatos</sheetname>
-      <autosizecolums>N</autosizecolums>
-      <retain_null_values>Y</retain_null_values>
-      <stream_data>N</stream_data>
-      <protect_sheet>N</protect_sheet>
-      <password>Encrypted </password>
-      <protected_by/>
-      <splitevery>0</splitevery>
-      <if_file_exists>new</if_file_exists>
-      <if_sheet_exists>new</if_sheet_exists>
-    </file>
-    <template>
-      <enabled>N</enabled>
-      <sheet_enabled>N</sheet_enabled>
-      <filename>template.xls</filename>
-      <sheetname/>
-      <hidden>N</hidden>
-    </template>
-    <fields>
-      <field>
-        <name>book_id</name>
-        <type>String</type>
-        <format/>
-        <title>book_id</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>title</name>
-        <type>String</type>
-        <format/>
-        <title>title</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>authors</name>
-        <type>String</type>
-        <format/>
-        <title>authors</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>average_rating</name>
-        <type>Number</type>
-        <format/>
-        <title>average_rating</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>isbn</name>
-        <type>String</type>
-        <format/>
-        <title>isbn</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>isbn13</name>
-        <type>String</type>
-        <format/>
-        <title>isbn13</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>language_code</name>
-        <type>String</type>
-        <format/>
-        <title>language_code</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>num_pages</name>
-        <type>Number</type>
-        <format/>
-        <title>num_pages</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>ratings_count</name>
-        <type>Number</type>
-        <format/>
-        <title>ratings_count</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>text_reviews_count</name>
-        <type>Number</type>
-        <format/>
-        <title>text_reviews_count</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>publication_date</name>
-        <type>String</type>
-        <format/>
-        <title>publication_date</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>publisher</name>
-        <type>String</type>
-        <format/>
-        <title>publisher</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>num_found</name>
-        <type>Integer</type>
-        <format/>
-        <title>num_found</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>work_key</name>
-        <type>String</type>
-        <format/>
-        <title>work_key</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>idiomas</name>
-        <type>String</type>
-        <format/>
-        <title>idiomas</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
+    <give_back_row>N</give_back_row>
+    <group>
       <field>
         <name>edicao_pt</name>
-        <type>String</type>
-        <format/>
-        <title>edicao_pt</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
+      </field>
+    </group>
+    <fields>
+      <field>
+        <aggregate>n</aggregate>
+        <subject>book_id</subject>
+        <type>COUNT_ALL</type>
+        <valuefield/>
       </field>
     </fields>
     <attributes/>
@@ -1611,8 +1595,8 @@ if (num_found == 0) {
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1360</xloc>
-      <yloc>304</yloc>
+      <xloc>672</xloc>
+      <yloc>496</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

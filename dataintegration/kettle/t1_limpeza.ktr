@@ -463,8 +463,8 @@
     <access>Native</access>
     <database>goodreads_etl</database>
     <port>5432</port>
-    <username>postgres</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce108ccafd8c</password>
+    <username>${PG_USER}</username>
+    <password>${PG_PASS}</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -1031,7 +1031,7 @@
     <length>Characters</length>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
-      <name>C:\Users\jsima\Desktop\Escola\3ºAno - 1ºSemestre\Integração de Sistemas de Informação\isi-tp1-goodreads\data\input\books.csv</name>
+      <name>${DATA_DIR}/input/books.csv</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>Y</file_required>

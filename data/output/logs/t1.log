@@ -1,12 +1,12 @@
-2026-10-22 21:40:23.983 - Executar t1 - Using run configuration [Pentaho local]
-2026-10-22 21:40:23.984 - t1_limpeza - Expedindo in�cio para transforma��o [t1_limpeza]
-2026-10-22 21:40:23.988 - Gravar candidatos.0 - Connected to database [goodreads_pg] (commit=1000)
-2026-10-22 21:40:23.990 - Ler linhas do CSV.0 - Opening file: file:///C:/Users/jsima/Desktop/Escola/3ºAno%20-%201ºSemestre/Integração%20de%20Sistemas%20de%20Informação/isi-tp1-goodreads/data/input/books.csv
-2026-10-22 21:40:24.069 - Ler linhas do CSV.0 - Finished processing (I=11128, O=0, R=0, W=11127, U=1, E=0)
-2026-10-22 21:40:24.097 - Corrigir virgulas dos autores.0 - Finished processing (I=0, O=0, R=11127, W=11127, U=0, E=0)
-2026-10-22 21:40:24.133 - Partir em 12 colunas.0 - Finished processing (I=0, O=0, R=11127, W=11127, U=0, E=0)
-2026-10-22 21:40:24.137 - Definir tipos.0 - Finished processing (I=0, O=0, R=11127, W=11127, U=0, E=0)
-2026-10-22 21:40:24.141 - Normalizar idioma.0 - Finished processing (I=0, O=0, R=11127, W=22254, U=0, E=0)
-2026-10-22 21:40:24.146 - Filtrar candidatos.0 - Finished processing (I=0, O=0, R=11127, W=363, U=0, E=0)
-2026-10-22 21:40:24.146 - Validação da contagem de idiomas.0 - Finished processing (I=0, O=0, R=11127, W=24, U=0, E=0)
-2026-10-22 21:40:24.213 - Gravar candidatos.0 - Finished processing (I=0, O=363, R=363, W=363, U=0, E=0)
+2026-10-22 22:43:13.510 - Executar t1 - Using run configuration [Pentaho local]
+2026-10-22 22:43:13.513 - t1_limpeza - Expedindo in�cio para transforma��o [t1_limpeza]
+2026-10-22 22:43:13.519 - Gravar candidatos.0 - Connected to database [goodreads_pg] (commit=1000)
+2026-10-22 22:43:13.522 - Ler linhas do CSV.0 - Opening file: file:///C:/isi-tp1-goodreads/data/input/books.csv
+2026-10-22 22:43:13.789 - Ler linhas do CSV.0 - Finished processing (I=11128, O=0, R=0, W=11127, U=1, E=0)
+2026-10-22 22:43:13.793 - Corrigir virgulas dos autores.0 - Finished processing (I=0, O=0, R=11127, W=11127, U=0, E=0)
+2026-10-22 22:43:13.912 - Partir em 12 colunas.0 - Finished processing (I=0, O=0, R=11127, W=11127, U=0, E=0)
+2026-10-22 22:43:13.928 - Definir tipos.0 - Finished processing (I=0, O=0, R=11127, W=11127, U=0, E=0)
+2026-10-22 22:43:13.944 - Normalizar idioma.0 - Finished processing (I=0, O=0, R=11127, W=22254, U=0, E=0)
+2026-10-22 22:43:13.949 - Validação da contagem de idiomas.0 - Finished processing (I=0, O=0, R=11127, W=24, U=0, E=0)
+2026-10-22 22:43:13.949 - Filtrar candidatos.0 - Finished processing (I=0, O=0, R=11127, W=363, U=0, E=0)
+2026-10-22 22:43:14.011 - Gravar candidatos.0 - Finished processing (I=0, O=363, R=363, W=363, U=0, E=0)
